@@ -1,0 +1,26 @@
+label:
+  fao: Slag av sambindingarorði
+  eng: Conjunction
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+order: 35
+extended_component: datasetSelect
+
+dataset:
+  C: C
+  S: S
+  I: I
+  R: R
+translation:
+  C:
+    fao: javnskipandi
+    eng: coordinating
+  S:
+    fao: innskipandi
+    eng: subordinating
+  I:
+    fao: navnháttarmerki
+    eng: infinitive marker
+  R:
+    fao: afturbeint fornavn
+    eng: relative pronoun

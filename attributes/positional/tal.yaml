@@ -1,0 +1,23 @@
+label:
+  fao: Tal
+  eng: Number
+order: 21
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+sidebar_hide_values:
+  - n
+extended_component: datasetSelect
+dataset:
+  S: S
+  P: P
+  n: n
+translation:
+  S:
+    fao: eintal
+    eng: singular
+  P:
+    fao: fleirtal
+    eng: plural
+  n:
+    fao: einki tal
+    eng: no number

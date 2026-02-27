@@ -1,0 +1,26 @@
+label:
+  fao: Teknseting
+  eng: Punctuation
+order: 37
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+extended_component: datasetSelect
+
+dataset:
+  E: E
+  C: C
+  Q: Q
+  O: O
+translation:
+  E:
+    fao: endamerki
+    eng: punctuation mark
+  C:
+    fao: komma
+    eng: comma punctuation
+  Q:
+    fao: gásareygu
+    eng: citation mark
+  O:
+    fao: annað
+    eng: other

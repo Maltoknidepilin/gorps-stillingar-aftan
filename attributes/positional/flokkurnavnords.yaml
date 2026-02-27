@@ -1,0 +1,19 @@
+label:
+  fao: Slag av navnorði
+  eng: Proper noun
+
+order: 2
+
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+extended_component: datasetSelect
+dataset:
+  P: P
+  r: r
+translation:
+  P:
+    fao: sernavn
+    eng: proper noun
+  r:
+    fao: felagsnavn
+    eng: not proper noun

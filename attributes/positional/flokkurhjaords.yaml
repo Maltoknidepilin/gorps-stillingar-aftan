@@ -1,0 +1,23 @@
+label:
+  fao: Slag av hjáorði
+  eng: Adverb
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+order: 34
+extended_component: datasetSelect
+
+dataset:
+  N: N
+  G: G
+  I: I
+
+translation:
+  N:
+    fao: hjáorð
+    eng: adverb
+  G: 
+    fao: fyriseting
+    eng: preposition
+  I: 
+    fao: miðalvarping
+    eng: interjection

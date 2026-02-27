@@ -1,0 +1,70 @@
+label:
+  eng: Part-of-speech
+  fao: Orðaflokkur
+order: 1
+
+extended_component: datasetSelect
+
+dataset:
+  S: S
+  R: R
+  A: A
+  P: P
+  N: N
+  V: V
+  L: L
+  D: D
+  C: C
+  F: F
+  X: X
+  T: T
+  W: W
+  K: K
+  M: M
+
+translation:
+  S:
+    fao: navnorð
+    eng: noun
+  R:
+    fao: kenniorð
+    eng: article
+  A:
+    fao: lýsingarorð
+    eng: adjective
+  P:
+    fao: fornavn
+    eng: pronoun
+  N:
+    fao: talorð
+    eng: numeral
+  V:
+    fao: sagnorð
+    eng: verb
+  L:
+    fao: lýsingarháttur
+    eng: participle
+  D:
+    fao: hjáorð
+    eng: adverb
+  C:
+    fao: sambindingarorð
+    eng: conjunction
+  F:
+    fao: útlendskt orð
+    eng: foreign word
+  X:
+    fao: ómarkað orð
+    eng: untagged word
+  T:
+    fao: stytting
+    eng: abbreviation
+  W:
+    fao: telduatsetur, vevsíða
+    eng: email, web address
+  K:
+    fao: teknseting
+    eng: punctuation
+  M:
+    fao: tekin
+    eng: symbol

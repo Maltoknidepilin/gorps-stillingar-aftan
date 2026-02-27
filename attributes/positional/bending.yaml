@@ -1,0 +1,23 @@
+label:
+  fao: Bending
+  eng: Declension
+order: 24
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+sidebar_hide_values:
+  - e
+extended_component: datasetSelect
+dataset:
+  S: S
+  W: W
+  e: e
+translation:
+  S:
+    fao: sterk
+    eng: strong
+  W:
+    fao: veik
+    eng: weak
+  e:
+    fao: eingin sterk/veik bending
+    eng: no strong/weak declension

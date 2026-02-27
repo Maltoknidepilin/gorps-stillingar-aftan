@@ -1,0 +1,83 @@
+id: tilroynd
+
+context:
+  - label:
+      eng : 1 sentence
+      isl : 1 setningur
+    value : 1 s
+
+title: "Heiti: Tilroynd"
+description: "Lýsing: Tilroynd"
+
+mode:
+  # - name: rmh2022
+  - name: default
+
+within:
+  - label:
+      eng : sentence
+      isl : setningur
+    value : s
+
+
+pos_attributes:
+  - word: word
+  - lemma: lemma
+#   - pos: pos
+#   - tt: tt
+#   - hattur: hattur
+#   - mynd: mynd
+#   - pers: pers
+#   - tof: tof
+#   - fnf: fnf
+#   - kyn: kyn
+#   - tala: tala
+#   - fall: fall
+#   - greinir: greinir
+#   - sernafn: sernafn
+#   - tid: tid
+#   - lob: lob
+#   - lostig: lostig
+#   - fsfall: fsfall
+#   - tob: tob
+
+
+struct_attributes:
+#   - date_interval:
+#       label:
+#         eng: Time interval
+#         isl: Tímabil
+#       hide_sidebar: 'true'
+#       hide_compare: 'true'
+#       hide_statistics: 'true'
+#       opts: false
+#       extended_component: dateInterval
+  - text_title: text_title_hidden
+#   - text_date: text_date
+#   - text_release_year: text_release_year
+#   - text_author: text_author_hidden
+#   - text_author_book: text_author_book
+#   - text_author_part: text_author_part
+#   - text_publisher: text_publisher
+#   - text_editor: text_editor
+#   - text_translator: text_translator
+#   - text_datefrom: text_datefrom
+#   - text_dateto: text_dateto
+#   - text_timefrom: text_timefrom
+#   - text_timeto: text_timeto
+#   - text_wordcount: text_wordcount
+#   - text_sentencecount: text_sentencecount
+#   - text_paragraphcount: text_paragraphcount
+#   - text_part_title: text_part_title
+#   - text_url_publisher: text_url_publisher_hidden
+#   - text_url_leitir: text_url_leitir_hidden
+#   - sentence_n: sentence_n
+  - s_id: s_id
+  - p_id: p_id
+
+
+# custom_attributes:
+#   - text_url:
+#       custom_type: struct
+#       label: ''
+#       pattern: "<p><span rel='localize[text_title]'></span>: <a target='_blank' href='<%=struct_attrs.text_url_publisher%>'><%=struct_attrs.text_title%></a><a target='_blank' href='<%=struct_attrs.text_url_leitir%>'><img src='app/img/leitir.png' width=16px></a></a></p></p>"

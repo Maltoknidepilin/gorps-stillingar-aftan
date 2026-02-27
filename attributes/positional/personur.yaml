@@ -1,0 +1,27 @@
+label:
+  fao: Persónur
+  eng: Person
+order: 28
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+sidebar_hide_values:
+  - p
+extended_component: datasetSelect
+dataset:
+  "1": "1"
+  "2": "2"
+  "3": "3"
+  p: p
+translation:
+  "1":
+    fao: 1. persónur
+    eng: 1st person
+  "2":
+    fao: 2. persónur
+    eng: 2nd person
+  "3":
+    fao: 3. persónur
+    eng: 3rd person
+  p:
+    fao: eingin persónur
+    eng: no person

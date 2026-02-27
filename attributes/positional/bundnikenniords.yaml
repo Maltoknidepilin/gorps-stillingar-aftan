@@ -1,0 +1,17 @@
+label:
+  fao: Bundni (kenniorð)
+  eng: Definiteness
+order: 31
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+extended_component: datasetSelect
+dataset:
+  I: I
+  D: D
+translation:
+  I:
+    fao: óbundið
+    eng: indefinite
+  D:
+    fao: bundið
+    eng: definite

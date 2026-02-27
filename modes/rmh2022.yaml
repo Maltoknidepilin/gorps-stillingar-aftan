@@ -1,0 +1,51 @@
+
+label:
+  eng: IGC-2022
+  isl: RMH-2022
+  fao: MMG-2026
+order: 1
+
+folders:
+  news:
+    description: Fréttir
+    title: Fréttir
+
+    subfolders:
+      ljosvakamidlar:
+        description: Ljósvakamiðlar
+        title: Ljósvakamiðlar
+      prentmidlar:
+        description: Prentmiðlar
+        title: Prentmiðlar
+      vefmidlar:
+        description: Vefmiðlar
+        title: Vefmiðlar
+
+  news_special:
+    description: Sérefni
+    title: Sérefni
+    subfolders:
+      baejarblod:
+        description: Bæjarblöð og staðbundnir miðlar
+        title: Bæjarblöð og staðbundnir miðlar
+      ithrottir:
+        description: Íþróttafréttamiðlar
+        title: Íþróttafréttamiðlar
+
+  journals:
+    description: Fræðitímarit
+    title: Fræðitímarit
+  public:
+    description: Stjórnsýslan
+    title: Stjórnsýslan
+  social:
+    description: Samfélagsmiðlar
+    title: Samfélagsmiðlar
+
+    subfolders:
+      forums:
+        description: Spjallþræðir
+        title: Spjallþræðir
+      blog:
+        description: Bloggsíður
+        title: Bloggsíður

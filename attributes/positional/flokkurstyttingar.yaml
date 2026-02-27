@@ -1,0 +1,19 @@
+label:
+  fao: Slag av stytting
+  eng: Abbreviation category
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+order: 36
+extended_component: datasetSelect
+
+dataset:
+  S: S
+  T: T
+
+translation:
+  S:
+    fao: stytting
+    eng: abbreviation
+  T:
+    fao: stytting við punktum
+    eng: abbreviation with periods

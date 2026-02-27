@@ -1,0 +1,23 @@
+label:
+  fao: Tíð
+  eng: Tense
+order: 27
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+sidebar_hide_values:
+  - t
+extended_component: datasetSelect
+dataset:
+  P: P
+  A: A
+  t: t
+translation:
+  P:
+    fao: nútíð
+    eng: present
+  A:
+    fao: tátíð
+    eng: past
+  t:
+    fao: eingin tíð
+    eng: no tense

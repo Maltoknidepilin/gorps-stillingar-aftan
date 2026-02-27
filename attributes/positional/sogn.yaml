@@ -1,0 +1,23 @@
+label:
+  fao: Søgn
+  eng: Voice
+order: 26
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+sidebar_hide_values:
+  - v
+extended_component: datasetSelect
+dataset:
+  A: A
+  M: M
+  v: v
+translation:
+  A:
+    fao: gerðsøgn
+    eng: active
+  M:
+    fao: miðalsøgn
+    eng: mediopassive
+  v:
+    fao: eingin søgn
+    eng: no voice

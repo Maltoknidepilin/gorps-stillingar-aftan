@@ -1,0 +1,9 @@
+label:
+  fao: Talorðsflokkur
+  eng: Numeral category
+order: 33
+extended_component: datasetSelect
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+
+##

@@ -1,0 +1,27 @@
+label:
+  fao: Kyn
+  eng: Gender
+order: 20
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+sidebar_hide_values:
+  - g
+extended_component: datasetSelect
+dataset:
+  M: M
+  F: F
+  N: N
+  g: g
+translation:
+  M:
+    fao: kallkyn
+    eng: masculine
+  F:
+    fao: kvennkyn
+    eng: feminine
+  N:
+    fao: hvørkikyn
+    eng: neuter
+  g:
+    fao: einki kyn
+    eng: no gender

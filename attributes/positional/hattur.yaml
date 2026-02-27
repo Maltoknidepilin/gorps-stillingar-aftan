@@ -1,0 +1,29 @@
+label:
+  fao: Háttur
+  eng: Mood
+order: 25
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+extended_component: datasetSelect
+dataset:
+  I: I
+  M: M
+  N: N
+  S: S
+  U: U
+translation:
+  I:
+    fao: navnháttur
+    eng: infinitive
+  M:
+    fao: boðsháttur
+    eng: imperative
+  N:
+    fao: søguháttur
+    eng: indicative
+  S:
+    fao: hugsháttur
+    eng: subjunctive
+  U:
+    fao: luttøkuháttur
+    eng: supine

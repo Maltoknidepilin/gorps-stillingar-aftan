@@ -1,0 +1,31 @@
+label:
+  fao: Stig
+  eng: Degree
+order: 23
+sidebar_hide_label: true
+sidebar_component: foHideEmpty
+sidebar_hide_values:
+  - d
+extended_component: datasetSelect
+dataset:
+  P: P
+  C: C
+  S: S
+  A: A
+  d: d
+translation:
+  P:
+    fao: grundstig
+    eng: positive
+  C:
+    fao: miðstig
+    eng: comparative
+  S:
+    fao: hástig
+    eng: superlative
+  A:
+    fao: avgjørt hástig
+    eng: absolute superlative
+  d:
+    fao: einki stig
+    eng: no degree
