@@ -1,9 +1,0 @@
-label:
-  swe: Bellmans samlade verk
-  eng: Bellman's collected works
-autocomplete: false
-color_primary: '#F7D1E4'
-color_light: '#FFEBF5'
-struct_attribute_selector: intersection
-pos_attribute_selector: intersection
-word_picture: false

@@ -1,9 +1,0 @@
-label: Linguistic Survey of India
-autocomplete: false
-map_center:
-  lat: 23.987825
-  lng: 78.223017
-  zoom: 4
-color_primary: '#FFE7D2'
-color_light: '#FFF4EB'
-word_picture: false

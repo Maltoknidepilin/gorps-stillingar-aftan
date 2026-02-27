@@ -1,7 +1,0 @@
-extended_template: <span>{{'compound_move' | loc}}</span>
-hide_compare: true
-hide_sidebar: true
-hide_statistics: true
-label:
-  eng: final part
-  swe: efterled

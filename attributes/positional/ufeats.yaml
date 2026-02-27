@@ -1,8 +1,0 @@
-label:
-  eng: UD features
-  swe: UD-features
-type: set
-extended_component: structServiceSelect
-opts:
-  is: contains
-  is_not: not contains
