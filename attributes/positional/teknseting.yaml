@@ -14,10 +14,10 @@ dataset:
 translation:
   E:
     fao: endamerki
-    eng: punctuation mark
+    eng: end of sentence
   C:
     fao: komma
-    eng: comma punctuation
+    eng: comma
   Q:
     fao: gásareygu
     eng: citation mark

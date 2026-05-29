@@ -42,8 +42,8 @@ translation:
     fao: sagnorð
     eng: verb
   L:
-    fao: lýsingarháttur
-    eng: participle
+    fao: tátíðar lýsingarháttur
+    eng: past participle
   D:
     fao: hjáorð
     eng: adverb
@@ -60,11 +60,11 @@ translation:
     fao: stytting
     eng: abbreviation
   W:
-    fao: telduatsetur, vevsíða
+    fao: teldupostbústaður, heimasíða
     eng: email, web address
   K:
     fao: teknseting
     eng: punctuation
   M:
-    fao: tekin
+    fao: tekn
     eng: symbol

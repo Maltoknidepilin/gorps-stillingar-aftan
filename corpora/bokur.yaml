@@ -4,8 +4,8 @@ lang: fao
 mode:
   - name: default
 title:
-  fao: Bøkurr
-  eng: Bøkurr
+  fao: Bøkur
+  eng: Bøkur
 within:
   - value: s
     label: null
