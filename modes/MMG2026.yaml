@@ -1,14 +1,13 @@
 
 label:
-  eng: IGC-2022
-  isl: RMH-2022
+  eng: FMC-2026
   fao: MMG-2026
 order: 1
 
 folders:
   news:
-    description: Fréttir
-    title: Fréttir
+    description: Tíðindi
+    title: Tíðindi
 
     subfolders:
       ljosvakamidlar:
@@ -33,19 +32,19 @@ folders:
         title: Íþróttafréttamiðlar
 
   journals:
-    description: Fræðitímarit
-    title: Fræðitímarit
+    description: Tíðarrit
+    title: Tíðarrit
   public:
-    description: Stjórnsýslan
-    title: Stjórnsýslan
+    description: Almenn skjøl
+    title: Almen skjøl
   social:
-    description: Samfélagsmiðlar
-    title: Samfélagsmiðlar
+    description: Sosialir miðlar
+    title: Sosialir miðlar
 
     subfolders:
       forums:
-        description: Spjallþræðir
-        title: Spjallþræðir
+        description: Kjatt
+        title: Kjatt
       blog:
-        description: Bloggsíður
-        title: Bloggsíður
+        description: Bloggar
+        title: Bloggar
