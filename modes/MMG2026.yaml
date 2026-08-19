@@ -48,3 +48,11 @@ folders:
       blog:
         description: Bloggar
         title: Bloggar
+
+  logir:
+    description:
+      fao: Lógir
+      eng: Laws
+    title:
+      fao: Lógir
+      eng: Laws
