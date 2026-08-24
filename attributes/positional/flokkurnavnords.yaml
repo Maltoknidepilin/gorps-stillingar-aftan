@@ -1,11 +1,14 @@
 label:
-  fao: Slag av navnorði
-  eng: Proper noun
+  fao: Felagsnavn/sernavn
+  eng: Noun type
 
-order: 2
+order: 98
 
 sidebar_hide_label: true
 sidebar_component: foHideEmpty
+sidebar_value_map:
+  mark:
+    SgncaP: SgncaP
 extended_component: datasetSelect
 dataset:
   P: P
@@ -16,4 +19,7 @@ translation:
     eng: proper noun
   r:
     fao: felagsnavn
-    eng: not proper noun
+    eng: common noun
+  SgncaP:
+    fao: óbendandi sernavn
+    eng: indeclinable proper noun

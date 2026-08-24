@@ -3,6 +3,9 @@ label:
   eng: Conjunction
 sidebar_hide_label: true
 sidebar_component: foHideEmpty
+sidebar_hide_when:
+  mark:
+    - CR
 order: 35
 extended_component: datasetSelect
 
@@ -10,7 +13,6 @@ dataset:
   C: C
   S: S
   I: I
-  R: R
 translation:
   C:
     fao: javnskipandi

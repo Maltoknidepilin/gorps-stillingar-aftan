@@ -1,10 +1,13 @@
 label:
-  fao: Teknseting
-  eng: Punctuation
+  fao: Slag av teknseting
+  eng: Punctuation type
 order: 37
 sidebar_hide_label: true
 sidebar_component: foHideEmpty
-extended_component: datasetSelect
+extended_component:
+  name: datasetSelect
+  options:
+    sort: false
 
 dataset:
   E: E
@@ -19,7 +22,7 @@ translation:
     fao: komma
     eng: comma
   Q:
-    fao: gásareygu
+    fao: gásareyga
     eng: citation mark
   O:
     fao: annað

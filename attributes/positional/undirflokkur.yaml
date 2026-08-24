@@ -1,9 +1,14 @@
 label:
-  fao: Undirflokkur
-  eng: Subcategory
+  fao: Slag av fornavni
+  eng: Pronoun type
 order: 32
 sidebar_hide_label: true
 sidebar_component: foHideEmpty
+sidebar_value_map:
+  mark:
+    CR: R_REL
+opts:
+  is: '='
 extended_component: datasetSelect
 
 dataset:
@@ -12,8 +17,8 @@ dataset:
   I: I
   P: P
   Q: Q
-  C: C
-  O: O
+  R_REL: R_REL
+  X: X
 
 translation:
   D:
@@ -24,13 +29,21 @@ translation:
     eng: possessive pronoun
   I:
     fao: óbundið fornavn
-    eng: indeclinable pronoun
+    eng: indefinite pronoun
   P:
     fao: persónsfornavn
     eng: personal pronoun
   Q:
     fao: spurnarfornavn
     eng: interrogative pronoun
+  R_REL:
+    fao: afturbeint fornavn
+    eng: relative pronoun
   X:
     fao: afturbent fornavn
     eng: reflexive pronoun
+value_cqp:
+  R_REL:
+    - type: mark
+      op: '='
+      val: CR

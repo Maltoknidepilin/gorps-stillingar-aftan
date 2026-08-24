@@ -3,6 +3,10 @@ label:
   eng: Adverb
 sidebar_hide_label: true
 sidebar_component: foHideEmpty
+hide_sidebar: true
+hide_extended: true
+hide_compare: true
+hide_statistics: true
 order: 34
 extended_component: datasetSelect
 

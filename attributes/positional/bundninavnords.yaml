@@ -1,13 +1,21 @@
 label:
-  fao: Bundni (navnorð)
+  fao: Bundni
   eng: Definiteness
 order: 29
 sidebar_hide_label: true
 sidebar_component: foHideEmpty
-extended_component: datasetSelect
+sidebar_hide_when:
+  mark:
+    - SgncaP
+opts:
+  is: '='
+extended_component:
+  name: datasetSelect
+  options:
+    sort: false
 dataset:
-  a: a
-  A: A
+  B: B
+  O: O
 translation:
   a:
     fao: óbundið
@@ -15,3 +23,25 @@ translation:
   A:
     fao: bundið
     eng: definite
+  B:
+    fao: bundið
+    eng: definite
+  O:
+    fao: óbundið
+    eng: indefinite
+value_cqp_join: '|'
+value_cqp:
+  B:
+    - type: bundninavnords
+      op: '='
+      val: A
+    - type: bundnikenniords
+      op: '='
+      val: D
+  O:
+    - type: bundninavnords
+      op: '='
+      val: a
+    - type: bundnikenniords
+      op: '='
+      val: I

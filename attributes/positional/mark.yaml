@@ -1,18 +1,4 @@
 label:
   eng: POS
   fao: Málmark
-order: 1
-
-extended_component: datasetSelect
-escape: false
-dataset:
-  V.*: sagnorð
-  K.*: teknseting
-
-translation:
-  teknseting:
-    fao: teknseting
-    eng: punctuation
-  sagnorð:
-    fao: sagnorð
-    eng: verb
+order: 99

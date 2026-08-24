@@ -1,0 +1,10 @@
+label:
+  fao: Rættarregluevni
+  eng: Subject area
+order: 9
+sidebar_hide_values:
+  - _
+  - "**UNDEF**"
+filter_hide_values:
+  - _
+  - "**UNDEF**"

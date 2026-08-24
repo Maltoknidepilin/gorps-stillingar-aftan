@@ -1,4 +1,5 @@
 label:
   fao: Leinki
   eng: URL
-order: 4
+type: url
+order: 10

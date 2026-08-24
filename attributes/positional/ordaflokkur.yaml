@@ -4,6 +4,9 @@ label:
 order: 1
 
 extended_component: datasetSelect
+sidebar_component: foPartOfSpeech
+opts:
+  is: '='
 
 dataset:
   S: S
@@ -13,7 +16,9 @@ dataset:
   N: N
   V: V
   L: L
-  D: D
+  D_N: D_N
+  D_G: D_G
+  D_I: D_I
   C: C
   F: F
   X: X
@@ -32,6 +37,9 @@ translation:
   A:
     fao: lýsingarorð
     eng: adjective
+  Adegnc:
+    fao: óbendandi lýsingarorð
+    eng: indeclinable adjective
   P:
     fao: fornavn
     eng: pronoun
@@ -47,6 +55,15 @@ translation:
   D:
     fao: hjáorð
     eng: adverb
+  D_N:
+    fao: hjáorð
+    eng: adverb
+  D_G:
+    fao: fyriseting
+    eng: preposition
+  D_I:
+    fao: miðalvarping
+    eng: interjection
   C:
     fao: sambindingarorð
     eng: conjunction
@@ -68,3 +85,43 @@ translation:
   M:
     fao: tekn
     eng: symbol
+
+value_cqp_join:
+  P: '|'
+
+value_cqp:
+  P:
+    - type: ordaflokkur
+      op: '='
+      val: P
+    - type: mark
+      op: '='
+      val: CR
+  C:
+    - type: ordaflokkur
+      op: '='
+      val: C
+    - type: mark
+      op: '!='
+      val: CR
+  D_N:
+    - type: ordaflokkur
+      op: '='
+      val: D
+    - type: flokkurhjaords
+      op: '='
+      val: N
+  D_G:
+    - type: ordaflokkur
+      op: '='
+      val: D
+    - type: flokkurhjaords
+      op: '='
+      val: G
+  D_I:
+    - type: ordaflokkur
+      op: '='
+      val: D
+    - type: flokkurhjaords
+      op: '='
+      val: I

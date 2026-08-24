@@ -6,4 +6,18 @@ extended_component: datasetSelect
 sidebar_hide_label: true
 sidebar_component: foHideEmpty
 
-##
+dataset:
+  C: C
+  O: O
+  R: R
+
+translation:
+  C:
+    fao: skrivað við bókstavum
+    eng: written in words
+  O:
+    fao: skrivað við tølum
+    eng: written in digits
+  R:
+    fao: tal framman fyri annað tal
+    eng: number preceding another number

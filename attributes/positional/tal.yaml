@@ -6,7 +6,10 @@ sidebar_hide_label: true
 sidebar_component: foHideEmpty
 sidebar_hide_values:
   - n
-extended_component: datasetSelect
+extended_component:
+  name: datasetSelect
+  options:
+    sort: false
 dataset:
   S: S
   P: P
