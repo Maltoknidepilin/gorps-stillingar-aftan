@@ -1,2 +1,40 @@
 
 label:
+  eng: Default
+  fao: Alt
+
+folders:
+  logir:
+    description:
+      fao: Lógir
+      eng: Laws
+    title:
+      fao: Lógir
+      eng: Laws
+    subfolders:
+      frabodanir:
+        description: Fráboðanir
+        title: Fráboðanir
+      kunngerdir:
+        description: Kunngerðir
+        title: Kunngerðir
+      kirkjuligfyriskipan:
+        description: Kirkjuleg fyriskipan
+        title: Kirkjuleg fyriskipan
+      leidbeiningar:
+        description: Leiðbeiningar
+        title: Leiðbeiningar
+      logtingslog:
+        description: Løgtingslóg
+        title: Løgtingslóg
+      logtingslogarkunngerdir:
+        description: Løgtingslógarkunngerðir
+        title: Løgtingslógarkunngerðir
+      rundskriv:
+        description: Rundskriv
+        title: Rundskriv
+      tingskipan:
+        description: Tingskipan
+        title: Tingskipan
+
+hidden: true
