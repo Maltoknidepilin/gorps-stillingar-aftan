@@ -1,10 +1,13 @@
 label:
   fao: Rættarregluevni
   eng: Subject area
+type: set
 order: 9
 sidebar_hide_values:
   - _
+  - __UNDEF__
   - "**UNDEF**"
 filter_hide_values:
   - _
+  - __UNDEF__
   - "**UNDEF**"
