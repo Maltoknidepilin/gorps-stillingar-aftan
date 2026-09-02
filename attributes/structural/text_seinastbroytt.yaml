@@ -2,3 +2,7 @@ label:
   fao: Seinast broytt
   eng: Last modified
 order: 6
+extended_component: dateInput
+opts:
+  is: "="
+  is_not: "!="

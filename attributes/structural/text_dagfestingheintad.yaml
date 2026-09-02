@@ -2,3 +2,7 @@ label:
   fao: Dagfesting heintað
   eng: Date fetched
 order: 5
+extended_component: dateInput
+opts:
+  is: "="
+  is_not: "!="
