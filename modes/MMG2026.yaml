@@ -34,9 +34,22 @@ folders:
   journals:
     description: Tíðarrit
     title: Tíðarrit
-  public:
-    description: Almenn skjøl
-    title: Almen skjøl
+  almenn-kunning:
+    description:
+      fao: Reinsaður, dedupliseraður og málsliga frámerktur tekstur frá føroyskum almennum heimasíðum.
+      eng: Cleaned, deduplicated and linguistically annotated text from Faroese public-sector websites.
+    license:
+      fao: >-
+        Skjøl, sum tað almenna letur gera, eru ikki vard av upphavsrætti
+        sambært § 9 í upphavsrættarlógini. Heintað í samstarvi við
+        <a href="https://trustllm.eu/">TrustLLM</a>.
+      eng: >-
+        Documents produced by public authorities are not protected by copyright
+        under section 9 of the Faroese Copyright Act. Collected in collaboration
+        with <a href="https://trustllm.eu/">TrustLLM</a>.
+    title:
+      fao: Almenn kunning
+      eng: Public-sector information
   social:
     description: Sosialir miðlar
     title: Sosialir miðlar
@@ -51,8 +64,19 @@ folders:
 
   logir:
     description:
-      fao: Lógir
-      eng: Laws
+      fao: Føroysk rættarskjøl úr logir.fo, reinsað og málsliga frámerkt til leitingar.
+      eng: Faroese legal documents from logir.fo, cleaned and linguistically annotated for searching.
+    license:
+      fao: >-
+        Almenn rættarskjøl eru ikki vard av upphavsrætti sambært § 9. Møgulig
+        egin metadata- og dátugrunnsíkast frá
+        <a href="https://www.usable.dev/">Usable</a> eru latin út undir
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.
+      eng: >-
+        Official legal documents are not protected by copyright under section 9.
+        Any original metadata and database contributions from
+        <a href="https://www.usable.dev/">Usable</a> are released under
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.
     title:
       fao: Lógir
       eng: Laws
