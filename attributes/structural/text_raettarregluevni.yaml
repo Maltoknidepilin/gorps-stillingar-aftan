@@ -3,6 +3,7 @@ label:
   eng: Subject area
 type: set
 order: 9
+extended_component: structServiceAutocomplete
 sidebar_hide_label: true
 sidebar_component: foHideEmpty
 sidebar_hide_values:
