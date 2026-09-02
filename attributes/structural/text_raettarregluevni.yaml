@@ -3,14 +3,16 @@ label:
   eng: Subject area
 type: set
 order: 9
-extended_component: structServiceAutocomplete
+extended_component: structServiceSelect
 sidebar_hide_label: true
 sidebar_component: foHideEmpty
 sidebar_hide_values:
+  - ""
   - _
   - __UNDEF__
   - "**UNDEF**"
 filter_hide_values:
+  - ""
   - _
   - __UNDEF__
   - "**UNDEF**"
