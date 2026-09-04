@@ -5,6 +5,14 @@ label:
 order: 1
 
 folders:
+  bundid-mal:
+    description:
+      fao: Kvæði, yrkingar og annað bundið mál.
+      eng: Ballads, poems and other verse.
+    title:
+      fao: Bundið mál
+      eng: Poetry
+
   news:
     description: Tíðindi
     title: Tíðindi

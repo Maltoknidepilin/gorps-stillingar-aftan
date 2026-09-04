@@ -4,6 +4,14 @@ label:
   fao: Alt
 
 folders:
+  bundid-mal:
+    description:
+      fao: Kvæði, yrkingar og annað bundið mál.
+      eng: Ballads, poems and other verse.
+    title:
+      fao: Bundið mál
+      eng: Poetry
+
   almenn-kunning:
     description:
       fao: Reinsaður, dedupliseraður og málsliga frámerktur tekstur frá føroyskum almennum heimasíðum.
