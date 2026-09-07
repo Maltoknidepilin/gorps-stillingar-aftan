@@ -1,0 +1,21 @@
+label:
+  fao: Slag av dagfesting
+  eng: Date type
+order: 5
+dataset:
+  witness: witness
+  first_known_publication: first_known_publication
+  ccf_publication: ccf_publication
+translation:
+  witness:
+    fao: Tekstvitni
+    eng: Textual witness
+  first_known_publication:
+    fao: Fyrsta kenda útgáva
+    eng: First known publication
+  ccf_publication:
+    fao: CCF-útgáva
+    eng: CCF publication
+hide_extended: true
+hide_compare: true
+hide_statistics: true
