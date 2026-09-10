@@ -1,0 +1,6 @@
+label:
+  fao: Føðingarár
+  eng: Birth year
+opts:
+  is: '='
+  is_not: '!='

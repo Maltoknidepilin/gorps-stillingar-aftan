@@ -1,0 +1,18 @@
+label:
+  fao: Mál til eftirkanningar (automatisk meting)
+  eng: Languages for review (automatic estimate)
+type: set
+order: 11
+hide_extended: true
+hide_compare: true
+hide_statistics: true
+translation:
+  dan:
+    fao: Danskt
+    eng: Danish
+  eng:
+    fao: Enskt
+    eng: English
+  isl:
+    fao: Íslendskt ella føroyskt — krevur eftirkanning
+    eng: Icelandic or Faroese — needs review

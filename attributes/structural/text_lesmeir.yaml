@@ -1,0 +1,9 @@
+label:
+  fao: Les meir
+  eng: Read more
+order: 10
+sidebar_component: foReadMore
+sidebar_hide_label: true
+hide_extended: true
+hide_compare: true
+hide_statistics: true

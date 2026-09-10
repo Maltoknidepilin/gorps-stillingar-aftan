@@ -1,0 +1,7 @@
+label:
+  fao: Dagfesting (ár)
+  eng: Date (year)
+order: 2
+opts:
+  is: "="
+  is_not: "!="

@@ -5,6 +5,27 @@ label:
 order: 1
 
 folders:
+  stilar:
+    title:
+      fao: Stílar
+      eng: Essays
+    description:
+      fao: >-
+        Stílasøvn, m.a. stílar frá miðnámsskúlanæmingum. Villugrunnur og WriFa
+        hava hvør sína innsavning, viðgerð og nýtslutreytir; sí einstøku søvnini.
+      eng: >-
+        Essay collections, including essays by upper-secondary students.
+        Villugrunnur and WriFa have separate collection histories, editing
+        practices and terms of use; see each collection.
+
+  talad-mal:
+    title:
+      fao: Talað mál
+      eng: Spoken language
+    description:
+      fao: Avskrivingar av talaðum máli. Sjálvvirknar ASR-avskrivingar eru merktar serstakt.
+      eng: Transcripts of spoken language. Automatic ASR transcripts are explicitly labelled.
+
   bundid-mal:
     description:
       fao: Kvæði, yrkingar og annað bundið mál.

@@ -1,0 +1,10 @@
+label:
+  fao: Avskriving
+  eng: Transcription
+translation:
+  asr:
+    fao: Sjálvvirkin (ASR), ikki rættlisin
+    eng: Automatic (ASR), not manually corrected
+hide_extended: true
+hide_compare: true
+hide_statistics: true

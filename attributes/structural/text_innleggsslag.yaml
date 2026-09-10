@@ -1,0 +1,13 @@
+label:
+  fao: Slag av innleggi
+  eng: Contribution type
+translation:
+  chairman:
+    fao: Forfólk
+    eng: Chair
+  speaker:
+    fao: Talari
+    eng: Speaker
+  remark:
+    fao: Viðmerking
+    eng: Remark

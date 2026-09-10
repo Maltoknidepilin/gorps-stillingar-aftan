@@ -1,0 +1,10 @@
+label:
+  fao: Kyn
+  eng: Gender
+translation:
+  Male:
+    fao: Maður
+    eng: Male
+  Female:
+    fao: Kvinna
+    eng: Female
