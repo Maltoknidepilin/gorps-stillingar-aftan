@@ -1,3 +1,7 @@
 label:
   fao: Aldursbólkur
   eng: Age group
+extended_component: structServiceSelect
+opts:
+  is: "="
+  is_not: "!="

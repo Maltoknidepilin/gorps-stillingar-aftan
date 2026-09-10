@@ -1,6 +1,10 @@
 label:
   fao: Kyn
   eng: Gender
+extended_component: structServiceSelect
+opts:
+  is: "="
+  is_not: "!="
 translation:
   Male:
     fao: Maður

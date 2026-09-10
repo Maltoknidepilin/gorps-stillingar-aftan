@@ -1,7 +1,6 @@
 label:
-  fao: Dagfesting heintað
-  eng: Date fetched
-order: 5
+  fao: Innsavnað
+  eng: Collected
 extended_component: dateInput
 escape: false
 opts:

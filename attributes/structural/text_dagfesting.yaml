@@ -3,6 +3,7 @@ label:
   eng: Date
 order: 4
 extended_component: dateInput
+escape: false
 opts:
   is: "="
   is_not: "!="

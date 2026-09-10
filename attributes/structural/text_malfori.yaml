@@ -1,6 +1,10 @@
 label:
   fao: Málføri
   eng: Dialect
+extended_component: structServiceSelect
+opts:
+  is: "="
+  is_not: "!="
 translation:
   Denmark:
     fao: Danmark
