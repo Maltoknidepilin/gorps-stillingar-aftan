@@ -1,3 +1,7 @@
 label:
   fao: Flokkur
   eng: Political affiliation
+extended_component: structServiceSelect
+opts:
+  is: "="
+  is_not: "!="

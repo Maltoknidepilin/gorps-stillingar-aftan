@@ -1,3 +1,7 @@
 label:
   fao: Býur/bygd
   eng: Town/village
+extended_component: structServiceSelect
+opts:
+  is: "="
+  is_not: "!="
