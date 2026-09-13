@@ -1,0 +1,7 @@
+label:
+  fao: Kapittul
+  eng: Chapter
+extended_component: structServiceSelect
+opts:
+  is: "="
+  is_not: "!="

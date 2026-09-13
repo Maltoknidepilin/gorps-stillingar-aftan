@@ -1,0 +1,207 @@
+# Canonical books; source-specific titles are also retained in TEI metadata.
+label:
+  fao: Bíbliubók
+  eng: Bible book
+extended_component: structServiceSelect
+opts:
+  is: '='
+  is_not: '!='
+translation:
+  GEN:
+    fao: Fyrsta Mósebók
+    eng: Genesis
+  EXO:
+    fao: Onnur Mósebók
+    eng: Exodus
+  LEV:
+    fao: Triðja Mósebók
+    eng: Leviticus
+  NUM:
+    fao: Fjórða Mósebók
+    eng: Numbers
+  DEU:
+    fao: Fimta Mósebók
+    eng: Deuteronomy
+  JOS:
+    fao: Jósvabók
+    eng: Joshua
+  JDG:
+    fao: Dómarabókin
+    eng: Judges
+  RUT:
+    fao: Rutarbók
+    eng: Ruth
+  1SA:
+    fao: Fyrra Sámuelsbók
+    eng: 1 Samuel
+  2SA:
+    fao: Seinna Sámuelsbók
+    eng: 2 Samuel
+  1KI:
+    fao: Fyrra Kongabók
+    eng: 1 Kings
+  2KI:
+    fao: Seinna Kongabók
+    eng: 2 Kings
+  1CH:
+    fao: Fyrra Krýnikubók
+    eng: 1 Chronicles
+  2CH:
+    fao: Seinna Krýnikubók
+    eng: 2 Chronicles
+  EZR:
+    fao: Ezra
+    eng: Ezra
+  NEH:
+    fao: Nehemia
+    eng: Nehemiah
+  EST:
+    fao: Esterarbók
+    eng: Esther
+  JOB:
+    fao: Jobsbók
+    eng: Job
+  PSA:
+    fao: Sálmarnir
+    eng: Psalms
+  PRO:
+    fao: Orðtøk Sálomons
+    eng: Proverbs
+  ECC:
+    fao: Prædikarin
+    eng: Ecclesiastes
+  SNG:
+    fao: Hásongurin
+    eng: Song of Songs
+  ISA:
+    fao: Jesaja
+    eng: Isaiah
+  JER:
+    fao: Jeremia
+    eng: Jeremiah
+  LAM:
+    fao: Harmljóðini
+    eng: Lamentations
+  EZK:
+    fao: Ezekiel
+    eng: Ezekiel
+  DAN:
+    fao: Dánjal
+    eng: Daniel
+  HOS:
+    fao: Hósea
+    eng: Hosea
+  JOL:
+    fao: Jóel
+    eng: Joel
+  AMO:
+    fao: Ámos
+    eng: Amos
+  OBA:
+    fao: Óbadia
+    eng: Obadiah
+  JON:
+    fao: Jónas
+    eng: Jonah
+  MIC:
+    fao: Mika
+    eng: Micah
+  NAM:
+    fao: Náhum
+    eng: Nahum
+  HAB:
+    fao: Hábakkuk
+    eng: Habakkuk
+  ZEP:
+    fao: Sefanja
+    eng: Zephaniah
+  HAG:
+    fao: Haggai
+    eng: Haggai
+  ZEC:
+    fao: Zakarja
+    eng: Zechariah
+  MAL:
+    fao: Málaki
+    eng: Malachi
+  MAT:
+    fao: Evangeliið eftir Matteus
+    eng: Matthew
+  MRK:
+    fao: Evangeliið eftir Markus
+    eng: Mark
+  LUK:
+    fao: Evangeliið eftir Lukas
+    eng: Luke
+  JHN:
+    fao: Evangeliið eftir Jóhannes
+    eng: John
+  ACT:
+    fao: Ápostlasøgan
+    eng: Acts
+  ROM:
+    fao: Bræv Paulusar ápostuls til Rómverja
+    eng: Romans
+  1CO:
+    fao: Fyrra bræv Paulusar ápostuls til Korintmanna
+    eng: 1 Corinthians
+  2CO:
+    fao: Seinna bræv Paulusar ápostuls til Korintmanna
+    eng: 2 Corinthians
+  GAL:
+    fao: Bræv Paulusar ápostuls til Galatamanna
+    eng: Galatians
+  EPH:
+    fao: Bræv Paulusar ápostuls til Efesusmanna
+    eng: Ephesians
+  PHP:
+    fao: Bræv Paulusar ápostuls til Filippimanna
+    eng: Philippians
+  COL:
+    fao: Bræv Paulusar ápostuls til Kolossumanna
+    eng: Colossians
+  1TH:
+    fao: Fyrra bræv Paulusar ápostuls til Tessalónikumanna
+    eng: 1 Thessalonians
+  2TH:
+    fao: Seinna bræv Paulusar ápostuls til Tessalónikumanna
+    eng: 2 Thessalonians
+  1TI:
+    fao: Fyrra bræv Paulusar ápostuls til Timoteusar
+    eng: 1 Timothy
+  2TI:
+    fao: Seinna bræv Paulusar ápostuls til Timoteusar
+    eng: 2 Timothy
+  TIT:
+    fao: Bræv Paulusar ápostuls til Titusar
+    eng: Titus
+  PHM:
+    fao: Bræv Paulusar ápostuls til Filemons
+    eng: Philemon
+  HEB:
+    fao: Brævið til Hebreara
+    eng: Hebrews
+  JAS:
+    fao: Hitt almenna bræv Jákups
+    eng: James
+  1PE:
+    fao: Hitt fyrra almenna bræv Pæturs
+    eng: 1 Peter
+  2PE:
+    fao: Hitt seinna almenna bræv Pæturs
+    eng: 2 Peter
+  1JN:
+    fao: Hitt fyrsta almenna bræv Jóhannesar
+    eng: 1 John
+  2JN:
+    fao: Annað bræv Jóhannesar
+    eng: 2 John
+  3JN:
+    fao: Triðja bræv Jóhannesar
+    eng: 3 John
+  JUD:
+    fao: Hitt almenna bræv Judasar
+    eng: Jude
+  REV:
+    fao: Jóhannesar opinbering
+    eng: Revelation

@@ -5,6 +5,14 @@ label:
 order: 1
 
 folders:
+  atrunadur:
+    title:
+      fao: Átrúnaðarligir tekstir
+      eng: Religious texts
+    description:
+      fao: Bíbliutýðingar og aðrir átrúnaðarligir tekstir. Sí upplýsingar og nýtslutreytir hjá einstøku søvnunum.
+      eng: Bible translations and other religious texts. See each collection for details and terms of use.
+
   stilar:
     title:
       fao: Stílar

@@ -1,0 +1,14 @@
+label:
+  fao: Testamenti
+  eng: Testament
+extended_component: structServiceSelect
+opts:
+  is: "="
+  is_not: "!="
+translation:
+  OT:
+    fao: Gamla testamenti
+    eng: Old Testament
+  NT:
+    fao: Nýggja testamenti
+    eng: New Testament

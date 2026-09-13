@@ -1,0 +1,11 @@
+label:
+  fao: Vers
+  eng: Verse
+extended_component: structServiceSelect
+opts:
+  is: "="
+  is_not: "!="
+translation:
+  __UNDEF__:
+    fao: Ikki skrásett
+    eng: Not recorded
