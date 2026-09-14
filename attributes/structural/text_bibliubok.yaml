@@ -1,7 +1,7 @@
 # Canonical books; source-specific titles are also retained in TEI metadata.
 label:
-  fao: Bíbliubók
-  eng: Bible book
+  fao: Bók
+  eng: Book
 extended_component: structServiceSelect
 opts:
   is: '='

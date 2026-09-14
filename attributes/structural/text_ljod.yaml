@@ -1,7 +1,21 @@
 label:
   fao: Lurta
   eng: Listen
-sidebar_component: foAudio
+sidebar_component:
+  name: foAudio
+  options:
+    sentence_start: s_audio_start
+    sentence_end: s_audio_end
+    # The URL points to an individual FPSC speech WAV, never the full meeting.
+    time_base: speech
+    debug_attributes:
+      - text_source_id
+      - text_audio_id
+      - text_meeting_id
+      - text_second
+      - s_audio_char_start
+      - s_audio_char_end
+show_in_context: true
 sidebar_hide_label: true
 hide_extended: true
 hide_compare: true

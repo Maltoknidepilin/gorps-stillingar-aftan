@@ -1,0 +1,7 @@
+# Playback/provenance values carried by /query, not search filters.
+display_type: hidden
+hide_sidebar: true
+hide_extended: true
+hide_compare: true
+hide_statistics: true
+show_in_context: true

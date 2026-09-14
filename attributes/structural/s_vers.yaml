@@ -2,7 +2,6 @@ label:
   fao: Vers
   eng: Verse
 type: set
-extended_component: structServiceSelect
 opts:
   is: contains
   is_not: not contains
