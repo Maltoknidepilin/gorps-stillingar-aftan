@@ -2,10 +2,7 @@ label:
   fao: Gerðabók
   eng: Minutes
 order: 10
-sidebar_component: foReadMore
-sidebar_link_text:
-  fao: link
-  eng: link
+type: url
 hide_extended: true
 hide_compare: true
 hide_statistics: true
