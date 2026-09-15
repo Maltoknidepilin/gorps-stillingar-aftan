@@ -1,9 +1,11 @@
 label:
-  fao: Leinki til tingfund
-  eng: Link to parliamentary sitting
+  fao: Gerðabók
+  eng: Minutes
 order: 10
 sidebar_component: foReadMore
-sidebar_hide_label: true
+sidebar_link_text:
+  fao: link
+  eng: link
 hide_extended: true
 hide_compare: true
 hide_statistics: true

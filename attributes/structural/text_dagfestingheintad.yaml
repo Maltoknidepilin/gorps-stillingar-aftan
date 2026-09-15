@@ -2,6 +2,7 @@ label:
   fao: Dagfesting heintað
   eng: Date fetched
 order: 5
+stringify: foDateOnly
 extended_component: dateInput
 escape: false
 opts:

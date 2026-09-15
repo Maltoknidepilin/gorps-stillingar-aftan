@@ -2,6 +2,7 @@ label:
   fao: Tíðarskeið (mett)
   eng: Period (estimated)
 order: 4
+stringify: foEstimatedPeriod
 hide_extended: true
 hide_compare: true
 hide_statistics: true
