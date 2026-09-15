@@ -3,7 +3,7 @@ label:
   eng: Transcription
 translation:
   asr:
-    fao: Sjálvvirkin (ASR), ikki rættlisin
+    fao: Talukenning (sjálvvirkandi), ikki rættlisin.
     eng: Automatic (ASR), not manually corrected
 hide_extended: true
 hide_compare: true
