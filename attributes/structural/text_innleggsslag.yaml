@@ -1,13 +1,17 @@
 label:
-  fao: Slag av innleggi
-  eng: Contribution type
+  fao: Leiklutur
+  eng: Role
+extended_component: structServiceSelect
+opts:
+  is: "="
+  is_not: "!="
 translation:
   chairman:
-    fao: Forfólk
+    fao: Løgtingsforfólk
     eng: Chair
   speaker:
     fao: Talari
     eng: Speaker
   remark:
-    fao: Viðmerking
-    eng: Remark
+    fao: Viðmerkjari
+    eng: Respondent

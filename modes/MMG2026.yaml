@@ -5,6 +5,14 @@ label:
 order: 1
 
 folders:
+  visindamal:
+    title:
+      fao: Vísindamál
+      eng: Academic texts
+    description:
+      fao: Vísindaligir tekstir úr bókum, tíðarritum og øðrum útgávum.
+      eng: Academic texts from books, journals and other publications.
+
   atrunadur:
     title:
       fao: Átrúnaðarligir tekstir

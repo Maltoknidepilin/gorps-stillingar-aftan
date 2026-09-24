@@ -1,3 +1,7 @@
 label:
   fao: Talari
   eng: Speaker
+extended_component: structServiceSelect
+opts:
+  is: "="
+  is_not: "!="

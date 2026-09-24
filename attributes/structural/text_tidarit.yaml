@@ -1,0 +1,9 @@
+label:
+  fao: Tíðarrit
+  eng: Journal
+label_plural:
+  fao: Tíðarrit
+  eng: Journals
+type: set
+sidebar_inline_single: true
+order: 3

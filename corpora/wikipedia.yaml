@@ -4,6 +4,18 @@ lang: fao
 mode:
   - name: default
   - name: MMG2026
+description:
+  eng: <p>This corpus is a linguistically annotated MMG snapshot of articles from
+    the Faroese Wikipedia. It was captured at a particular time and is therefore not
+    a complete copy of the live Wikipedia; articles may since have been changed, added
+    or removed. The metadata link points back to the article and its revision history.</p>
+  fao: <p>Málgrunnurin er ein málsliga frámerkt MMG-mynd av greinunum á føroysku Wikipediu.
+    Hann varð tikin á einum ávísum degi og er tí ikki ein fullfíggjað mynd av livandi
+    Wikipediu; greinir kunnu síðan vera broyttar, lagdar afturat ella strikaðar. Leinki
+    í tekstupplýsingunum vísir aftur til greinina og broytingarsøguna.</p>
+license:
+  fao: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+  eng: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
 title:
   fao: Føroysk Wikipedia
   eng: Faroese Wikipedia
@@ -19,16 +31,9 @@ context:
       eng: 1 s
 struct_attributes:
   - text_heiti: text_heiti
-  - text_leinki:
-      label: text leinki
-  - text_grein_id:
-      label: text grein id
-  - text_stovnad:
-      label: text stovnad
-  - text_seinastbroytt:
-      label: text seinastbroytt
-  - text_kelda:
-      label: text kelda
+  - text_leinki: text_leinki
+  - text_dagfesting: text_dagfesting
+  - text_seinastbroytt: text_seinastbroytt
 pos_attributes:
   - leitord: leitord
   - mark: mark
@@ -51,7 +56,4 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
-attribute_filters:
-  - text_stovnad
-  - text_seinastbroytt
-  - text_kelda
+download_allowed: true
