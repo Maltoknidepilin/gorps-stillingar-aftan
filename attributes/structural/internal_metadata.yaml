@@ -1,0 +1,6 @@
+# Preserved in CWB/XML, but not exposed as user-facing Korp metadata.
+display_type: hidden
+hide_sidebar: true
+hide_extended: true
+hide_compare: true
+hide_statistics: true

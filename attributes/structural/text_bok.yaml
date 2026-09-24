@@ -1,0 +1,9 @@
+label:
+  fao: Bók
+  eng: Book
+label_plural:
+  fao: Bøkur
+  eng: Books
+type: set
+sidebar_inline_single: true
+order: 3

@@ -1,5 +1,9 @@
 label:
   fao: Høvundur
   eng: Author
+label_plural:
+  fao: Høvundar
+  eng: Authors
 type: set
+sidebar_inline_single: true
 order: 2

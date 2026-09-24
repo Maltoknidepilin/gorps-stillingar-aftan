@@ -4,9 +4,26 @@ lang: fao
 mode:
   - name: default
   - name: MMG2026
+description:
+  fao: <p>Teldutøka tekstasavn Føroyamálsdeildarinnar (TTF) er eitt fjølbroytt savn
+    av føroyskum tekstum úr eitt nú heimasíðum, bókum, bløðum, útvarps- og sjónvarpstilfari,
+    greinum og almennum frágreiðingum. Keldurnar eru bæði stovnar, feløg, miðlar og
+    einstaklingar. MMG-útgávan er eitt valt og reinsað úrval, har endurtøkur eru tiknar
+    burtur. Málgrunnurin fevnir ikki um alt tilfarið í upprunaliga savninum.</p>
+  eng: <p>The Digital Corpus of the Faculty of Faroese (TTF) is a varied collection
+    of Faroese texts from websites, books, newspapers, radio and television material,
+    articles and public reports, among other sources. Its contributors include institutions,
+    organisations, media outlets and individuals. The MMG edition is a selected, cleaned
+    and deduplicated subset and does not contain all material from the original collection.</p>
+license:
+  fao: Einki felags loyvi er skrásett fyri alt TTF-savnið. Rættindini kunnu vera ymisk
+    frá keldu til keldu.
+  eng: No single corpus-wide license is recorded for the complete TTF collection.
+    Rights may differ by source.
 title:
   fao: Teldutøka tekstasavn Føroyamálsdeildarinnar
   eng: Digital Corpus by the Faculty of Faroese
+download_allowed: false
 within:
   - value: s
     label:
@@ -18,6 +35,7 @@ context:
       fao: 1 s
       eng: 1 s
 struct_attributes:
+  - text_tidarskeid: text_tidarskeid
   - text_utgevari: text_utgevari
 pos_attributes:
   - leitord: leitord
@@ -41,5 +59,3 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
-attribute_filters:
-  - text_utgevari
