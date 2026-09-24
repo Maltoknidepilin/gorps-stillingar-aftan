@@ -1,0 +1,8 @@
+label:
+  fao: Heimild
+  eng: Source
+order: 5
+sidebar_component: foBalladSource
+hide_extended: true
+hide_compare: true
+hide_statistics: true

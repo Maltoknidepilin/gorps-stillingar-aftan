@@ -37,16 +37,15 @@ context:
       eng: 1 verse
 struct_attributes:
   - text_heiti: text_heiti
-  - text_dagfesting: text_dagfesting
-  - text_dagfestingarslag: text_dagfestingarslag
-  - text_dagfestingargrund: text_dagfestingargrund
+  - text_dagfesting: text_kvad_ar
   - text_ccf: text_ccf
   - text_tsb: text_tsb
-  - text_bind: text_bind
-  - text_handrit: text_handrit
-  - text_utgava: text_utgava
-  - text_heimild: text_heimild
-  - text_leinki: text_leinki
+  # Legacy fields remain available for the sidebar to combine without reindexing.
+  - text_handrit: text_fokvadi_heimild
+  - text_heimild: text_fokvadi_heimild
+  - text_bind: text_fokvadi_utgava
+  - text_utgava: text_fokvadi_utgava
+  - text_leinki: text_lesmeir
   - vers_nummar: vers_nummar
 pos_attributes:
   - leitord: leitord
