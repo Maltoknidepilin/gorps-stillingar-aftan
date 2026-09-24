@@ -16,7 +16,22 @@ license:
     BY 4.0</a>
   eng: BLARK is released under CC BY 4.0; attribution is required. <a href="https://creativecommons.org/licenses/by/4.0/">CC
     BY 4.0</a>
+description:
+  fao: |-
+    <p>BLARK er føroyska bakgrundstekstasavnið í Basic Language Resource Kit, savnað til máltøkni og serliga talukenning. Bakgrundstekstirnir vóru ikki brúktir sum upplestrartilfar í BLARK-upptøkunum.</p>
+    <p>Tilfarið fevnir um alitgrein (greinar frá Fróðskaparsetrinum og frágreiðingar frá landsstýrisráðum), BirkBlog, Dimmalætting, FTS (føroyskt tekstasavn hjá Språkbanken, serliga Dimmalætting 1998), Sosialin, KVF, Portalin, Ravnfacorpus (vevtekstir, blaðtilfar og skaldskapur savnað av Sjúrði Gullbein í 2000–2001), WriFa (stílar hjá miðnámsskúlanæmingum), føroyska Korp-savnið hjá Giellatekno og tilfar frá MEGD, Starvsblaðnum og Hagstovuni. Tekstirnir eru savnaðir úr ymiskum tekstasløgum og keldum og eru reinsaðir og málsliga frámerktir í MMG.</p>
+  eng: |-
+    <p>BLARK is the Faroese background-text corpus in the Basic Language Resource Kit, collected for language technology and especially automatic speech recognition. The background texts were not used as reading prompts in the BLARK recordings.</p>
+    <p>Its sources include alitgrein (University of the Faroe Islands articles and ministry reports), BirkBlog, Dimmalætting, FTS (the Faroese text collection at Språkbanken, mainly Dimmalætting 1998), Sosialurin, KVF, Portalurin, Ravnfacorpus (web pages, newspaper material and literary fiction collected by Sjúrður Gullbein in 2000–2001), WriFa (upper-secondary student essays), Giellatekno's Faroese Korp corpus, and material from MEGD, Starvsblaðið and Statistics Faroe Islands. The texts span several genres and sources and have been cleaned and linguistically annotated in MMG.</p>
+license:
+  fao: BLARK er givið út við CC BY 4.0; kelda og upphav skulu nevnast. <a href="https://creativecommons.org/licenses/by/4.0/">CC
+    BY 4.0</a>
+  eng: BLARK is released under CC BY 4.0; attribution is required. <a href="https://creativecommons.org/licenses/by/4.0/">CC
+    BY 4.0</a>
 title:
+  fao: BLARK
+  eng: BLARK
+download_allowed: true
   fao: BLARK
   eng: BLARK
 download_allowed: true
@@ -31,6 +46,7 @@ context:
       fao: 1 s
       eng: 1 s
 struct_attributes:
+  - text_tidarskeid: text_tidarskeid
   - text_tidarskeid: text_tidarskeid
   - text_id: text_id
 pos_attributes:
