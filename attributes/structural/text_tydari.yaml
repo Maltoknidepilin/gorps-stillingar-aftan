@@ -1,7 +1,11 @@
 label:
   fao: Týðari
   eng: Translator
+label_plural:
+  fao: Týðarar
+  eng: Translators
 type: set
+sidebar_inline_single: true
 extended_component: structServiceSelect
 opts:
   is: contains

@@ -2,7 +2,7 @@ label:
   fao: CCF
   eng: CCF
 order: 3
-stringify: foBalladReference
+pattern: '<%- val.trim().replace(/^CCF\s+/i, "") %>'
 hide_extended: true
 hide_compare: true
 hide_statistics: true

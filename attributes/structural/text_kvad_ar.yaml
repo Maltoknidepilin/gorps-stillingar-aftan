@@ -1,7 +1,9 @@
 label:
-  fao: Dagfesting (ár)
-  eng: Date (year)
+  fao: Dagfesting
+  eng: Date
 order: 2
+extended_component: dateInput
+escape: false
 opts:
   is: "="
   is_not: "!="

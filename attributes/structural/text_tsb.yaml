@@ -2,7 +2,7 @@ label:
   fao: TSB
   eng: TSB
 order: 4
-stringify: foBalladReference
+pattern: '<%- val.trim().replace(/^TSB\s+/i, "") %>'
 hide_extended: true
 hide_compare: true
 hide_statistics: true

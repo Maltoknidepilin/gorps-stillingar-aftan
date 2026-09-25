@@ -1,8 +1,10 @@
 label:
   fao: Útgáva
   eng: Edition
-order: 6
+order: 7
 sidebar_component: foBalladEdition
+# A readable fallback also on frontends which do not yet have the custom component.
+pattern: '<%- val.replace(/\bBind\s+([IVXLCDM]+)\.docx?\b/gi, "Føroya kvæði, bind $1") %>'
 hide_extended: true
 hide_compare: true
 hide_statistics: true

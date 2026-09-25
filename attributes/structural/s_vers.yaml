@@ -2,6 +2,7 @@ label:
   fao: Vers
   eng: Verse
 type: set
+sidebar_inline_single: true
 opts:
   is: contains
   is_not: not contains
