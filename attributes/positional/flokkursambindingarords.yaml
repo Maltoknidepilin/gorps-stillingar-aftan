@@ -6,13 +6,13 @@ sidebar_component: foHideEmpty
 sidebar_hide_when:
   mark:
     - CR
+    - CI
 order: 35
 extended_component: datasetSelect
 
 dataset:
   C: C
   S: S
-  I: I
 translation:
   C:
     fao: javnskipandi
@@ -20,9 +20,6 @@ translation:
   S:
     fao: innskipandi
     eng: subordinating
-  I:
-    fao: navnháttarmerki
-    eng: infinitive marker
   R:
     fao: afturbeint fornavn
     eng: relative pronoun

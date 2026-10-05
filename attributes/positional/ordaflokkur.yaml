@@ -20,6 +20,7 @@ dataset:
   D_G: D_G
   D_I: D_I
   C: C
+  C_I: C_I
   F: F
   X: X
   T: T
@@ -67,6 +68,9 @@ translation:
   C:
     fao: sambindingarorð
     eng: conjunction
+  C_I:
+    fao: navnháttarmerki
+    eng: infinitive marker
   F:
     fao: útlendskt orð
     eng: foreign word
@@ -104,6 +108,13 @@ value_cqp:
     - type: mark
       op: '!='
       val: CR
+    - type: mark
+      op: '!='
+      val: CI
+  C_I:
+    - type: mark
+      op: '='
+      val: CI
   D_N:
     - type: ordaflokkur
       op: '='
