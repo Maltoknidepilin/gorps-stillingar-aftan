@@ -4,7 +4,17 @@ label:
 order: 1
 
 extended_component: datasetSelect
-sidebar_component: foPartOfSpeech
+sidebar_component: foHideEmpty
+sidebar_hide_label: true
+sidebar_value_map:
+  mark:
+    Adegnc: Adegnc
+    CR: P
+    CI: C_I
+  flokkurhjaords:
+    N: D_N
+    G: D_G
+    I: D_I
 opts:
   is: '='
 
