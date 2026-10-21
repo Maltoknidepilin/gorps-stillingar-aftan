@@ -1,6 +1,12 @@
 label:
   fao: Føðingarár
   eng: Birth year
+extended_component:
+  name: dateInput
+  options:
+    yearOnly: true
+    range: true
+escape: false
 opts:
   is: '='
   is_not: '!='

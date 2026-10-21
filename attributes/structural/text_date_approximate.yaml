@@ -1,0 +1,5 @@
+# Internal qualifier for the normal date; never a second visible date field.
+display_type: hidden
+hide_extended: true
+hide_compare: true
+hide_statistics: true

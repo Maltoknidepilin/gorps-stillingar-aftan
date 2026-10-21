@@ -1,0 +1,15 @@
+label:
+  fao: Kelda
+  eng: Source
+hide_extended: true
+hide_compare: true
+hide_statistics: true
+# Use the established sidebar pattern renderer. Escape both the source label
+# and the URL, and make only HTTP(S) links clickable. Legacy indexed GiellaLT
+# labels remain readable without rebuilding the corpus.
+pattern: >-
+  <% var label = val.replace(/^GiellaLT(?:\s*\/.*)?$/, "GiellaLT");
+  var href = struct_attrs.text_leinki; var safe = false;
+  try { var url = new URL(href); safe = ["http:", "https:"].includes(url.protocol) && !url.username && !url.password; } catch (e) {}
+  if (safe) { %><a href="<%- href %>" target="_blank" rel="noopener noreferrer"><%- label %></a><% }
+  else { %><%- label %><% } %>

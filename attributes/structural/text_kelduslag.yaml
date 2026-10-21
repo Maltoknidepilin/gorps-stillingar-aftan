@@ -2,6 +2,10 @@ label:
   fao: Kelduslag
   eng: Source type
 order: 6
+extended_component: structServiceSelect
+opts:
+  is: '='
+  is_not: '!='
 dataset:
   text/html: text/html
   application/pdf: application/pdf

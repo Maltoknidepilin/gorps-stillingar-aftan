@@ -4,6 +4,8 @@ label:
 order: 21
 sidebar_hide_label: true
 sidebar_component: foHideEmpty
+sidebar_value_from_tag:
+  L: 3
 sidebar_hide_values:
   - n
 extended_component:

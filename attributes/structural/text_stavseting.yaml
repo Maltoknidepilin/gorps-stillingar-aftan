@@ -1,0 +1,11 @@
+label:
+  fao: Stavseting
+  eng: Orthography
+extended_component: structServiceSelect
+opts:
+  is: "="
+  is_not: "!="
+translation:
+  historical:
+    fao: Søgulig stavseting
+    eng: Historical spelling

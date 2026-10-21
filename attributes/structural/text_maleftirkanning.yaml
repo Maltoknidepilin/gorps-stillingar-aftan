@@ -2,6 +2,7 @@ label:
   fao: Mál til eftirkanningar (automatisk meting)
   eng: Languages for review (automatic estimate)
 type: set
+display_type: hidden
 order: 11
 hide_extended: true
 hide_compare: true

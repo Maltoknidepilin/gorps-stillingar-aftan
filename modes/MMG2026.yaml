@@ -5,13 +5,29 @@ label:
 order: 1
 
 folders:
-  visindamal:
+  uppslagsverk:
     title:
-      fao: Vísindamál
-      eng: Academic texts
+      fao: Uppslagsverk
+      eng: Reference works
     description:
-      fao: Vísindaligir tekstir úr bókum, tíðarritum og øðrum útgávum.
-      eng: Academic texts from books, journals and other publications.
+      fao: Alfrøðiligar greinar og tekstir úr orðabókum.
+      eng: Encyclopedia articles and texts from dictionaries.
+
+  yrkis:
+    title:
+      fao: Yrkisbókmentir
+      eng: Nonfiction literature
+    description:
+      fao: Yrkisbøkur, vísindaligar greinir, kanningar og aðrir yrkistekstir.
+      eng: Nonfiction books, academic articles, studies and other nonfiction texts.
+
+  tidarrit:
+    title:
+      fao: Tíðarrit
+      eng: Journals and report series
+    description:
+      fao: Ymisk vísindalig tíðarrit. Sí keldu- og nýtsluupplýsingar hjá einstøku søvnunum.
+      eng: Various scientific journals. See each collection for sources and terms of use.
 
   atrunadur:
     title:
@@ -26,21 +42,18 @@ folders:
       fao: Stílar
       eng: Essays
     description:
-      fao: >-
-        Stílasøvn, m.a. stílar frá miðnámsskúlanæmingum. Villugrunnur og WriFa
-        hava hvør sína innsavning, viðgerð og nýtslutreytir; sí einstøku søvnini.
-      eng: >-
-        Essay collections, including essays by upper-secondary students.
-        Villugrunnur and WriFa have separate collection histories, editing
-        practices and terms of use; see each collection.
+      fao: Stílar frá miðnámsskúlanæmingum. Síggj einstøku málgrunnarnar fyri kunning um nýtslutreytir.
+      eng: Essays by upper-secondary students. See the individual corpora for their terms of use.
 
   talad-mal:
     title:
       fao: Talað mál
       eng: Spoken language
     description:
-      fao: Avskrivingar av talaðum máli. Sjálvvirknar ASR-avskrivingar eru merktar serstakt.
-      eng: Transcripts of spoken language. Automatic ASR transcripts are explicitly labelled.
+      fao: Sjálvvirkandi avskriving av talaðum máli. Ein talukennari er brúktur til at fáa talaða málið skrivað
+        niður. Gev tí gætur, at teksturin kann innihalda orð, sum ikki eru til.
+      eng: Automatic transcription of spoken language using speech recognition. Be aware that the text may
+        contain words that do not exist.
 
   bundid-mal:
     description:
@@ -81,20 +94,25 @@ folders:
     title: Tíðarrit
   almenn-kunning:
     description:
-      fao: Reinsaður, dedupliseraður og málsliga frámerktur tekstur frá føroyskum almennum heimasíðum.
-      eng: Cleaned, deduplicated and linguistically annotated text from Faroese public-sector websites.
+      fao: >-
+        Reinsaður, dedupliseraður og málsliga frámerktur tekstur frá føroyskum
+        almennum heimasíðum. Tilfarið er savnað í samstarvi við
+        <a href="https://trustllm.eu/">TrustLLM</a> og
+        <a href="https://giellatekno.uit.no/">Giellatekno</a>.
+      eng: >-
+        Cleaned, deduplicated and linguistically annotated text from Faroese
+        public-sector websites. Collected in collaboration with
+        <a href="https://trustllm.eu/">TrustLLM</a> and
+        <a href="https://giellatekno.uit.no/">Giellatekno</a>.
     license:
       fao: >-
-        Skjøl, sum tað almenna letur gera, eru ikki vard av upphavsrætti
-        sambært § 9 í upphavsrættarlógini. Heintað í samstarvi við
-        <a href="https://trustllm.eu/">TrustLLM</a>.
+        <a href="https://logir.fo/Logtingslog/30-fra-30-04-2015-um-upphavsraett">Almenn skjøl - upphavsrættarlógin § 9</a>
       eng: >-
-        Documents produced by public authorities are not protected by copyright
-        under section 9 of the Faroese Copyright Act. Collected in collaboration
-        with <a href="https://trustllm.eu/">TrustLLM</a>.
+        <a href="https://logir.fo/Logtingslog/30-fra-30-04-2015-um-upphavsraett">Official documents - Faroese Copyright Act, section 9</a>
     title:
       fao: Almenn kunning
       eng: Public-sector information
+
   social:
     description: Sosialir miðlar
     title: Sosialir miðlar
@@ -112,16 +130,12 @@ folders:
       fao: Føroysk rættarskjøl úr logir.fo, reinsað og málsliga frámerkt til leitingar.
       eng: Faroese legal documents from logir.fo, cleaned and linguistically annotated for searching.
     license:
-      fao: >-
-        Almenn rættarskjøl eru ikki vard av upphavsrætti sambært § 9. Møgulig
-        egin metadata- og dátugrunnsíkast frá
-        <a href="https://www.usable.dev/">Usable</a> eru latin út undir
-        <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.
-      eng: >-
-        Official legal documents are not protected by copyright under section 9.
-        Any original metadata and database contributions from
-        <a href="https://www.usable.dev/">Usable</a> are released under
-        <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.
+      fao: <a href="https://logir.fo/Logtingslog/30-fra-30-04-2015-um-upphavsraett">Almenn skjøl - upphavsrættarlógin
+        § 9</a>. Sjálvstøðug íkast kunnu vera vard. <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+        1.0</a> fevnir bert um møgulig egin metadata- og dátugrunnsíkast frá <a href="https://www.usable.dev/">Usable</a>.
+      eng: <a href="https://logir.fo/Logtingslog/30-fra-30-04-2015-um-upphavsraett">Official documents - Faroese
+        Copyright Act, section 9</a>. Independent contributions may be protected. <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+        1.0</a> covers only any original metadata and database contributions from <a href="https://www.usable.dev/">Usable</a>.
     title:
       fao: Lógir
       eng: Laws

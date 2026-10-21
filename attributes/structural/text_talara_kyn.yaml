@@ -1,10 +1,12 @@
 label:
   fao: Kyn
   eng: Gender
+type: set
+sidebar_inline_single: true
 extended_component: structServiceSelect
 opts:
-  is: "="
-  is_not: "!="
+  is: contains
+  is_not: not contains
 translation:
   Male:
     fao: Maður
@@ -12,3 +14,15 @@ translation:
   Female:
     fao: Kvinna
     eng: Female
+  Nonbinary:
+    fao: Uttan fyri tveykynsskipanina
+    eng: Nonbinary
+  Other:
+    fao: Annað
+    eng: Other
+  Unknown:
+    fao: Ókent
+    eng: Unknown
+  NotApplicable:
+    fao: Ikki viðkomandi
+    eng: Not applicable
