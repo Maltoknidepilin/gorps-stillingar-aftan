@@ -1,6 +1,7 @@
 label:
   fao: Innsavnað
   eng: Collected
+hide_extended: true
 extended_component: dateInput
 escape: false
 opts:

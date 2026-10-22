@@ -1,6 +1,7 @@
 label:
   fao: Seinast broytt
   eng: Last modified
+hide_extended: true
 order: 6
 extended_component: dateInput
 escape: false

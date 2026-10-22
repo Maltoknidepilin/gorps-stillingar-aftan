@@ -2,3 +2,12 @@ label:
   fao: Útgevari
   eng: Publisher
 order: 7
+extended_component: structServiceAutocomplete
+opts:
+  is: '='
+  is_not: '!='
+  starts_with: '^='
+  contains: '_='
+  ends_with: '&='
+  matches: '*='
+  matches_not: '!*='

@@ -1,6 +1,7 @@
 label:
   fao: Tíðarrit
   eng: Journal
+hide_extended: true
 label_plural:
   fao: Tíðarrit
   eng: Journals

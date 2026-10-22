@@ -1,0 +1,10 @@
+label:
+  fao: Yrkisøki
+  eng: Subject field
+type: set
+sidebar_inline_single: true
+extended_component: structServiceSelect
+escape: true
+opts:
+  is: contains
+  is_not: not contains

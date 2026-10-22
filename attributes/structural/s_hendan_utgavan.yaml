@@ -1,6 +1,7 @@
 label:
   fao: Hendan útgávan
   eng: This edition
+hide_extended: true
 type: set
 sidebar_inline_single: true
 extended_component: structServiceSelect
