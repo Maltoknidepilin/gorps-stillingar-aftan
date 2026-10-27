@@ -48,6 +48,7 @@ struct_attributes:
       preset: text_dagfesting
       order: 4
   - text_tidarit:
+      hide_extended: true
       preset: internal_metadata
       order: 5
   - text_bind:

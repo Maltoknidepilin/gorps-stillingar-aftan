@@ -39,6 +39,7 @@ struct_attributes:
   - text_dagfesting:
       preset: text_dagfesting
   - text_seinastbroytt:
+      hide_extended: true
       preset: text_seinastbroytt
   - text_kelduvevur:
       preset: text_kelduvevur

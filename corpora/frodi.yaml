@@ -50,12 +50,14 @@ struct_attributes:
       preset: text_dagfesting
       order: 4
   - text_tidarit:
+      hide_extended: true
       preset: internal_metadata
       order: 5
   - text_bind:
       preset: text_bind
       order: 6
   - text_hefti:
+      hide_extended: true
       label:
         fao: Nummar
         eng: Issue

@@ -36,12 +36,15 @@ struct_attributes:
       preset: internal_metadata
   - text_heiti: text_heiti
   - text_skraarnavn: text_skraarnavn
-  - text_flokkur: text_flokkur
+  - text_flokkur:
+      preset: internal_metadata
   - text_dagfesting: text_dagfesting
   - text_utgevari: text_utgevari
   - text_hovundur: text_hovundur
   - text_bok: text_bok
-  - text_tidarit: text_tidarit
+  - text_tidarit:
+      preset: text_tidarit
+      hide_extended: true
   - text_effective_use:
       preset: internal_metadata
   - text_effective_scrambled:
@@ -55,6 +58,7 @@ struct_attributes:
   - text_availability_status:
       preset: internal_metadata
   - text_hendan_utgavan:
+      hide_extended: true
       preset: text_hendan_utgavan
       sidebar_hide_if_equal_to: text_dagfesting
   - text_tydari:

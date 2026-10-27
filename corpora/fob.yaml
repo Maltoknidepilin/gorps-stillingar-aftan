@@ -49,6 +49,7 @@ struct_attributes:
         fao: Leitorð í orðabók
         eng: Dictionary headword
   - text_undirleitord:
+      hide_extended: true
       order: 1.2
       sidebar_hide_if_present: text_ordabokarpostar
       type: set
@@ -107,6 +108,7 @@ struct_attributes:
         eng: Homonym number
       extended_component: structServiceSelect
   - text_bending:
+      hide_extended: true
       opts:
         is: contains
         is_not: not contains
@@ -131,6 +133,7 @@ struct_attributes:
         eng: Sense number
       extended_component: structServiceSelect
   - text_vidmerking:
+      hide_extended: true
       extended_component: structServiceSelect
       escape: true
       opts:
@@ -163,6 +166,7 @@ struct_attributes:
         fao: Viðmerking um
         eng: Note about
   - text_upprunaligt_domi:
+      hide_extended: true
       opts:
         is: contains
         is_not: not contains
@@ -296,6 +300,8 @@ struct_attributes:
         fao: Viðmerking
         eng: Note
   - text_yrkisoki:
+      hide_extended: false
+      preset: text_yrkisoki
       extended_component: structServiceSelect
       escape: true
       opts:
@@ -367,6 +373,7 @@ struct_attributes:
         fao: Stovnað í orðabókini
         eng: Dictionary entry created
   - text_seinastbroytt:
+      hide_extended: true
       opts:
         is: contains
         is_not: not contains

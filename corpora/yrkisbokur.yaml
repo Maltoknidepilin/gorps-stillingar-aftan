@@ -51,6 +51,7 @@ struct_attributes:
       preset: text_dagfesting
       order: 4
   - text_hendan_utgavan:
+      hide_extended: true
       preset: text_hendan_utgavan
       order: 4.1
       sidebar_hide_if_equal_to: text_dagfesting

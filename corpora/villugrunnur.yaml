@@ -43,6 +43,7 @@ context:
       eng: 1 s
 struct_attributes:
   - text_innsavnad:
+      hide_extended: true
       preset: text_innsavnad
       order: 2
   - text_aldursbolkur:
