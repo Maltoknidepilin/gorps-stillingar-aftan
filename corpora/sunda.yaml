@@ -7,21 +7,23 @@ mode:
   - name: MMG2026
     folder: almenn-kunning
 description:
-  eng: <p>This corpus contains Faroese text from a public-sector website. The material
-    has been cleaned, deduplicated and linguistically annotated. It is a preserved
-    selection and does not necessarily contain everything on the live website.</p>
-  fao: <p>Málgrunnurin fevnir um føroyskan tekst frá einari almennari heimasíðu. Tilfarið
-    er reinsað, dedupliserað og málsliga frámerkt. Hetta er eitt varðveitt úrval og
-    fevnir ikki neyðturviliga um alt tilfarið á livandi heimasíðuni.</p>
+  fao: <p>Málgrunnurin fevnir um føroyskan tekst frá hesi almennu heimasíðuni. Tilfarið
+    er heintað í samstarvi við <a href="https://trustllm.eu/">TrustLLM</a>, reinsað,
+    dedupliserað og málsliga markað.</p>
+  eng: <p>This corpus contains Faroese text from this public-sector website. The material
+    was collected in collaboration with <a href="https://trustllm.eu/">TrustLLM</a>
+    and has been cleaned, deduplicated and linguistically annotated.</p>
 license:
-  fao: Skjøl, sum tað almenna letur gera, eru ikki vard av upphavsrætti sambært §
-    9 í upphavsrættarlógini. Heintað í samstarvi við <a href="https://trustllm.eu/">TrustLLM</a>.
-  eng: Documents produced by public authorities are not protected by copyright under
-    section 9 of the Faroese Copyright Act. Collected in collaboration with <a href="https://trustllm.eu/">TrustLLM</a>.
+  fao: <a href="https://logir.fo/Logtingslog/30-fra-30-04-2015-um-upphavsraett">Almenn
+    skjøl - upphavsrættarlógin § 9</a>
+  eng: <a href="https://logir.fo/Logtingslog/30-fra-30-04-2015-um-upphavsraett">Official
+    documents - Faroese Copyright Act, section 9</a>
 title:
   fao: Sunda kommuna
   eng: Sunda Municipality
 download_allowed: true
+availability_status: free
+download_url: https://huggingface.co/datasets/Setur/MMG-2026/tree/main/public_sector_information/sunda_municipality
 within:
   - value: s
     label:
@@ -34,13 +36,13 @@ context:
       eng: 1 s
 struct_attributes:
   - text_tidarskeid: text_tidarskeid
-  - text_maleftirkanning: text_maleftirkanning
   - text_heiti: text_heiti
   - text_leinki: text_leinki
   - text_dagfestingheintad: text_dagfestingheintad
   - text_kelduslag: text_kelduslag
 pos_attributes:
   - leitord: leitord
+  - bendingar_id: bendingar_id
   - mark: mark
   - ordaflokkur: ordaflokkur
   - undirflokkur: undirflokkur
@@ -61,3 +63,5 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
+  - _head: _head
+  - _tail: _tail

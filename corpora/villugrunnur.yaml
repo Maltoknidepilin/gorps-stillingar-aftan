@@ -30,6 +30,7 @@ title:
   fao: Villugrunnur
   eng: Villugrunnur
 download_allowed: false
+availability_status: restricted
 within:
   - value: s
     label:
@@ -47,14 +48,15 @@ struct_attributes:
   - text_aldursbolkur:
       preset: text_aldursbolkur
       order: 3
-  - text_kyn:
-      preset: text_talara_kyn
-      order: 4
   - text_malfori:
       preset: text_malfori
       order: 5
+  - text_kyn:
+      preset: text_kyn
+      order: 4
 pos_attributes:
   - leitord: leitord
+  - bendingar_id: bendingar_id
   - mark: mark
   - ordaflokkur: ordaflokkur
   - undirflokkur: undirflokkur
@@ -75,3 +77,5 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
+  - _head: _head
+  - _tail: _tail

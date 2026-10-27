@@ -7,24 +7,22 @@ mode:
   - name: MMG2026
     folder: atrunadur
 description:
-  eng: <p>The Faroese King James Bible translated by Sjúrður Højgaard, first published
-    in full in 2015. FKJ2 (2024) website text is used where available; missing Old
-    Testament verses come from FKJ1 (2015).</p>
   fao: <p>Føroyska King James-bíblian í týðing eftir Sjúrð Højgaard. Fyrsta heildarútgávan
     kom í 2015. Vevtekstur úr FKJ2 (2024) er nýttur har hann er tøkur; ískoyti úr
     Gamla testamenti eru úr FKJ1 (2015).</p>
+  eng: <p>The Faroese King James Bible translated by Sjúrður Højgaard, first published
+    in full in 2015. FKJ2 (2024) website text is used where available; missing Old
+    Testament verses come from FKJ1 (2015).</p>
 license:
-  fao: Nýtslutreytirnar hjá útgevaranum eru galdandi. Savnið inniheldur bæði FKJ1
-    (2015) og FKJ2 (2024). Upprunalig teknseting, skákskrift og útgávuupplýsingar
-    eru varðveittar í XML. <a href="https://fkj.fo/bruksraettindir-fkjs/?menuid=3260">Brúksrættindir
+  fao: <a href="https://fkj.fo/bruksraettindir-fkjs/?menuid=3260">Brúksrættindi fyri
     Føroysku King James</a>
-  eng: The publisher’s terms apply. This corpus combines FKJ1 (2015) and FKJ2 (2024).
-    Original punctuation, italics and edition provenance are retained in XML. <a href="https://fkj.fo/bruksraettindir-fkjs/?menuid=3260">Faroese
-    King James terms of use</a>
+  eng: <a href="https://fkj.fo/bruksraettindir-fkjs/?menuid=3260">Faroese King James
+    terms of use</a>
 title:
   fao: Føroyska King James-bíblian
   eng: Faroese King James Bible
 download_allowed: false
+availability_status: restricted
 within:
   - value: s
     label:
@@ -42,6 +40,7 @@ struct_attributes:
   - s_hendan_utgavan:
       preset: s_hendan_utgavan
       order: 7
+      sidebar_hide_if_equal_to: text_dagfesting
   - text_bibliubok:
       preset: text_bibliubok
       order: 1
@@ -60,8 +59,12 @@ struct_attributes:
   - text_leinki:
       preset: text_leinki
       order: 8
+  - text_kyn:
+      preset: text_kyn
+      order: 5.5
 pos_attributes:
   - leitord: leitord
+  - bendingar_id: bendingar_id
   - mark: mark
   - ordaflokkur: ordaflokkur
   - undirflokkur: undirflokkur
@@ -82,3 +85,5 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
+  - _head: _head
+  - _tail: _tail

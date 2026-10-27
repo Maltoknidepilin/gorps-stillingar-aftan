@@ -7,6 +7,14 @@ mode:
   - name: MMG2026
     folder: talad-mal
 description:
+  fao: '<p>Tingfundir úr <a href="https://huggingface.co/datasets/davidilag/FPSC">FPSC</a>
+    (Faroese Parliament Speech Corpus), eftir Dávid í Lág, Barbaru Scalvini, Carlos
+    Mena og Jón Guðnason. Teksturin er sjálvvirkandi avskrivaður úr upptøkum frá Løgtinginum
+    við talukennara. Avskrivingin er ikki rættlisin; skeiv orð, nøvn og endurtøkur
+    kunnu koma fyri. Teknseting og reglubrot eru sjálvvirkandi løgd afturat í eftirviðgerð.
+    Málføri, aldursbólkur og floksupplýsingar eru knýtt at tekstinum. Gev gætur: teksturin
+    er gjørdur við teldu og er ikki rættlisin. Hann inniheldur orð, sum ikki eru til.
+    </p>'
   eng: '<p>Parliamentary sittings from <a href="https://huggingface.co/datasets/davidilag/FPSC">FPSC</a>
     (Faroese Parliament Speech Corpus), by Dávid í Lág, Barbara Scalvini, Carlos Mena
     and Jón Guðnason. The text has been automatically transcribed from recordings
@@ -16,14 +24,6 @@ description:
     Information about dialect, age group, and political party is linked to the text.
     Please note: the text is computer-generated and has not been proofread. It may
     contain non-existent words.</p>'
-  fao: '<p>Tingfundir úr <a href="https://huggingface.co/datasets/davidilag/FPSC">FPSC</a>
-    (Faroese Parliament Speech Corpus), eftir Dávid í Lág, Barbaru Scalvini, Carlos
-    Mena og Jón Guðnason. Teksturin er sjálvvirkandi avskrivaður úr upptøkum frá Løgtinginum
-    við talukennara. Avskrivingin er ikki rættlisin; skeiv orð, nøvn og endurtøkur
-    kunnu koma fyri. Teknseting og reglubrot eru sjálvvirkandi løgd afturat í eftirviðgerð.
-    Málføri, aldursbólkur og floksupplýsingar eru knýtt at tekstinum. Gev gætur: teksturin
-    er gjørdur við teldu og er ikki rættlisin. Hann inniheldur orð, sum ikki eru til.
-    </p>'
 license:
   fao: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
   eng: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
@@ -31,6 +31,8 @@ title:
   fao: Tingfundir (avskrivaðir sjálvvirkandi)
   eng: Parliamentary debates (ASR)
 download_allowed: true
+availability_status: free
+download_url: https://huggingface.co/datasets/Setur/MMG-2026/tree/main/spoken_language/parliamentary_debates_asr
 within:
   - value: s
     label:
@@ -76,9 +78,6 @@ struct_attributes:
   - text_aldursbolkur:
       preset: text_aldursbolkur
       order: 8
-  - text_kyn:
-      preset: text_talara_kyn
-      order: 9
   - text_byurbygd:
       preset: text_byurbygd
       order: 10
@@ -99,8 +98,12 @@ struct_attributes:
       preset: audio_metadata
   - text_second:
       preset: audio_metadata
+  - text_kyn:
+      preset: text_kyn
+      order: 9
 pos_attributes:
   - leitord: leitord
+  - bendingar_id: bendingar_id
   - mark: mark
   - ordaflokkur: ordaflokkur
   - undirflokkur: undirflokkur
@@ -121,3 +124,5 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
+  - _head: _head
+  - _tail: _tail

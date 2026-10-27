@@ -18,6 +18,8 @@ title:
   fao: Stílar
   eng: Essays
 download_allowed: true
+availability_status: free
+download_url: https://huggingface.co/datasets/Setur/MMG-2026/tree/main/essays/essays
 within:
   - value: s
     label:
@@ -30,6 +32,7 @@ context:
       eng: 1 s
 struct_attributes:
   - text_innsavnad:
+      hide_extended: true
       preset: text_innsavnad
       order: 2
   - text_aldursbolkur:
@@ -37,6 +40,7 @@ struct_attributes:
       order: 3
 pos_attributes:
   - leitord: leitord
+  - bendingar_id: bendingar_id
   - mark: mark
   - ordaflokkur: ordaflokkur
   - undirflokkur: undirflokkur
@@ -57,3 +61,5 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
+  - _head: _head
+  - _tail: _tail

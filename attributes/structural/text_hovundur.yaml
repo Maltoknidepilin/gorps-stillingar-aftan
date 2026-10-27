@@ -6,4 +6,13 @@ label_plural:
   eng: Authors
 type: set
 sidebar_inline_single: true
+extended_component: structServiceAutocomplete
+opts:
+  is: contains
+  is_not: not contains
+  starts_with: starts_with_contains
+  contains: incontains_contains
+  ends_with: ends_with_contains
+  matches: '*='
+  matches_not: '!*='
 order: 2

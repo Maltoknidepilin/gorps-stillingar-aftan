@@ -5,25 +5,30 @@ mode:
   - name: default
   - name: MMG2026
 description:
-  eng: <p>This MMG corpus is a selected Faroese subset of FineWeb 2, which was built
-    from Common Crawl material. The MMG edition is selected, cleaned and deduplicated
-    and therefore does not contain every Faroese text in the source dataset.</p>
-  fao: <p>Hesin MMG-málgrunnurin er eitt úrval av føroyskum vevtekstum úr FineWeb
-    2, sum er gjørt úr Common Crawl-tilfari. MMG-útgávan er vald og reinsað, og endurtøkur
-    eru tiknar burtur. Málgrunnurin fevnir tí ikki um allar føroyskar tekstir í upprunasavninum.</p>
+  fao: <p>Hesin málgrunnurin er eitt úrval av føroyskum nettekstum úr <a href="https://arxiv.org/abs/2506.20920">FineWeb
+    2</a>, sum er gjørt úr <a href="https://commoncrawl.org/overview">Common Crawl</a>-tilfari (2013-2024),
+    umframt úrtak av eldri <a href="https://commoncrawl.org/overview">Common Crawl</a> (2008-2012). MMG-útgávan
+    er vald og reinsað, og endurtøkur eru tiknar burtur. Málgrunnurin fevnir tí ikki um allar føroyskar
+    tekstir í upprunasøvnunum.</p>
+  eng: <p>This corpus is a selected Faroese subset of <a href="https://arxiv.org/abs/2506.20920">FineWeb
+    2</a>, which was built from <a href="https://commoncrawl.org/overview">Common Crawl</a> material (2013-2024)
+    in addition to older <a href="https://commoncrawl.org/overview">Common Crawl</a> datasets (2008-2012).
+    The MMG edition is selected, cleaned and deduplicated and therefore does not contain every Faroese
+    text in the source datasets.</p>
 license:
-  fao: ODC-By 1.0 fevnir um FineWeb 2-dátugrunnin. Einstakar vevsíður kunnu hava onnur
-    rættindi, og <a href="https://commoncrawl.org/terms-of-use">nýtslutreytirnar hjá
-    Common Crawl</a> eru eisini galdandi. <a href="https://opendatacommons.org/licenses/by/1-0/">ODC-By
-    1.0</a>
-  eng: ODC-By 1.0 applies to the FineWeb 2 database. Individual web pages may carry
-    separate rights, and the <a href="https://commoncrawl.org/terms-of-use">Common
-    Crawl Terms of Use</a> also apply. <a href="https://opendatacommons.org/licenses/by/1-0/">ODC-By
-    1.0</a>
+  fao: <a href="https://opendatacommons.org/licenses/by/1-0/">ODC-By 1.0</a>. ODC-By
+    1.0 fevnir um FineWeb 2-dátugrunnin. Einstakar vevsíður kunnu hava onnur rættindi,
+    og <a href="https://commoncrawl.org/terms-of-use">nýtslutreytirnar hjá Common
+    Crawl</a> eru eisini galdandi.
+  eng: <a href="https://opendatacommons.org/licenses/by/1-0/">ODC-By 1.0</a>. ODC-By
+    1.0 applies to the FineWeb 2 database. Individual web pages may carry separate
+    rights, and the <a href="https://commoncrawl.org/terms-of-use">Common Crawl Terms
+    of Use</a> also apply.
 title:
   fao: Tekstur av netinum
   eng: Texts from the Web
 download_allowed: false
+availability_status: unknown
 within:
   - value: s
     label:
@@ -39,6 +44,7 @@ struct_attributes:
   - text_dagfestingheintad: text_dagfestingheintad
 pos_attributes:
   - leitord: leitord
+  - bendingar_id: bendingar_id
   - mark: mark
   - ordaflokkur: ordaflokkur
   - undirflokkur: undirflokkur
@@ -59,3 +65,5 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
+  - _head: _head
+  - _tail: _tail

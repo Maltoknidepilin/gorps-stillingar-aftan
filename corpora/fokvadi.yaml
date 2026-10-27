@@ -7,16 +7,19 @@ mode:
   - name: MMG2026
     folder: bundid-mal
 description:
-  eng: <p>A digital edition of Faroese Ballads, comprising 336 textual witnesses in
-    140 ballads.</p>
   fao: <p>Talgild útgáva av Føroya kvæði. Savnið fevnir um 336 uppskriftir av 140
     kvæðum.</p>
+  eng: <p>A digital edition of Faroese Ballads, comprising 336 textual witnesses in
+    140 ballads.</p>
 license:
-  fao: <a href="https://creativecommons.org/publicdomain/mark/1.0/">Almenn ogn</a>.
-  eng: <a href="https://creativecommons.org/publicdomain/mark/1.0/">Public domain</a>.
+  fao: <a href="https://creativecommons.org/publicdomain/mark/1.0/">Almenn ogn</a>
+  eng: <a href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain</a>
 title:
   fao: Føroya kvæði
   eng: Faroese Ballads
+download_allowed: true
+availability_status: free
+download_url: https://huggingface.co/datasets/Setur/MMG-2026/tree/main/poetry/faroese_ballads
 within:
   - value: s
     label:
@@ -24,8 +27,8 @@ within:
       eng: sentence
   - value: vers
     label:
-      fao: vers
-      eng: verse
+      fao: ørindi
+      eng: stanza
 context:
   - value: 1 s
     label:
@@ -33,22 +36,27 @@ context:
       eng: 1 sentence
   - value: 1 vers
     label:
-      fao: 1 vers
-      eng: 1 verse
+      fao: 1 ørindi
+      eng: 1 stanza
 struct_attributes:
   - text_heiti: text_heiti
   - text_dagfesting: text_kvad_ar
   - text_ccf: text_ccf
   - text_tsb: text_tsb
-  # Legacy fields remain available for the sidebar to combine without reindexing.
-  - text_handrit: text_fokvadi_heimild
-  - text_heimild: text_fokvadi_heimild
-  - text_bind: text_fokvadi_utgava
-  - text_utgava: text_fokvadi_utgava
+  - text_handrit:
+      preset: text_handrit
+      order: 5
+  - text_heimild:
+      preset: text_fokvadi_heimild
+      order: 6
+  - text_utgava:
+      preset: text_fokvadi_utgava
+      order: 7
   - text_leinki: text_lesmeir
   - vers_nummar: vers_nummar
 pos_attributes:
   - leitord: leitord
+  - bendingar_id: bendingar_id
   - mark: mark
   - ordaflokkur: ordaflokkur
   - undirflokkur: undirflokkur
@@ -69,4 +77,5 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
-download_allowed: true
+  - _head: _head
+  - _tail: _tail

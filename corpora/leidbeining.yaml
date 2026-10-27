@@ -12,17 +12,19 @@ description:
   eng: <p>This corpus is part of the MMG Law Collection and contains Faroese legal
     documents from logir.fo, cleaned and linguistically annotated for searching.</p>
 license:
-  fao: Almenn rættarskjøl eru ikki vard av upphavsrætti sambært § 9. Møgulig egin
-    metadata- og dátugrunnsíkast frá <a href="https://www.usable.dev/">Usable</a>
-    eru latin út undir <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0
-    1.0</a>.
-  eng: Official legal documents are not protected by copyright under section 9. Any
-    original metadata and database contributions from <a href="https://www.usable.dev/">Usable</a>
-    are released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0
-    1.0</a>.
+  fao: <a href="https://logir.fo/Logtingslog/30-fra-30-04-2015-um-upphavsraett">Almenn
+    skjøl - upphavsrættarlógin § 9</a>. Sjálvstøðug íkast kunnu vera vard. <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+    1.0</a> fevnir bert um møgulig egin metadata- og dátugrunnsíkast frá <a href="https://www.usable.dev/">Usable</a>.
+  eng: <a href="https://logir.fo/Logtingslog/30-fra-30-04-2015-um-upphavsraett">Official
+    documents - Faroese Copyright Act, section 9</a>. Independent contributions may
+    be protected. <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0
+    1.0</a> covers only any original metadata and database contributions from <a href="https://www.usable.dev/">Usable</a>.
 title:
   fao: Leiðbeiningar
   eng: Guidelines
+download_allowed: true
+availability_status: free
+download_url: https://huggingface.co/datasets/Setur/MMG-2026/tree/main/laws/guidelines
 within:
   - value: s
     label:
@@ -40,6 +42,7 @@ struct_attributes:
   - text_myndugleiki: text_myndugleiki
 pos_attributes:
   - leitord: leitord
+  - bendingar_id: bendingar_id
   - mark: mark
   - ordaflokkur: ordaflokkur
   - undirflokkur: undirflokkur
@@ -60,4 +63,5 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
-download_allowed: true
+  - _head: _head
+  - _tail: _tail

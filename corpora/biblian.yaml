@@ -7,20 +7,21 @@ mode:
   - name: MMG2026
     folder: atrunadur
 description:
-  eng: <p>Viktor Danielsen’s translation of all 66 books of the Bible, first published
+  eng: <p>Victor Danielsen’s translation of all 66 books of the Bible, first published
     in full in 1949. The website text is the revision from 2017. Collected from biblian.fo.</p>
-  fao: <p>Bíblian í týðing eftir Viktor Danielsen, við 66 bókum úr Gamla og Nýggja
+  fao: <p>Bíblian í týðing eftir Victor Danielsen, við 66 bókum úr Gamla og Nýggja
     testamenti. Fyrsta heildarútgávan kom í 1949; henda vevútgávan er endurskoðaða
     útgávan frá 2017. Teksturin er heintaður av biblian.fo.</p>
 license:
-  fao: Teksturin er vardur av upphavsrætti. <a href="https://biblian.fo/copyright">Nýtslutreytir
-    hjá Hinum føroyska bíbliugrunninum</a>
-  eng: The text is protected by copyright. <a href="https://biblian.fo/copyright">Faroese
-    Bible Foundation terms of use</a>
+  fao: <a href="https://biblian.fo/copyright">Nýtslutreytir hjá Hinum føroyska bíbliugrunninum</a>.
+    Teksturin er vardur av upphavsrætti.
+  eng: <a href="https://biblian.fo/copyright">Faroese Bible Foundation terms of use</a>.
+    The text is protected by copyright.
 title:
   fao: Bíblian (Hin føroyski bíbliugrunnurin)
   eng: Bible (Faroese Bible Foundation)
 download_allowed: false
+availability_status: restricted
 within:
   - value: s
     label:
@@ -38,6 +39,7 @@ struct_attributes:
   - s_hendan_utgavan:
       preset: s_hendan_utgavan
       order: 7
+      sidebar_hide_if_equal_to: text_dagfesting
   - text_bibliubok:
       preset: text_bibliubok
       order: 1
@@ -56,8 +58,12 @@ struct_attributes:
   - text_leinki:
       preset: text_leinki
       order: 8
+  - text_kyn:
+      preset: text_kyn
+      order: 5.5
 pos_attributes:
   - leitord: leitord
+  - bendingar_id: bendingar_id
   - mark: mark
   - ordaflokkur: ordaflokkur
   - undirflokkur: undirflokkur
@@ -78,3 +84,5 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
+  - _head: _head
+  - _tail: _tail

@@ -8,20 +8,21 @@ mode:
     folder: atrunadur
 description:
   fao: <p>Bíblia í týðing eftir Jákup Dahl og Kristian Osvald Viderø við 66 bókum
-    úr Gamla og Nýggja testamenti. Nýggja testamenti kom út í 1937 og øll Bíblian
+    úr Gamla og Nýggja testamenti. Nýggja Testamenti kom út í 1937 og øll Bíblian
     í 1961. Teksturin er heintaður av biblia.fo.</p>
   eng: <p>The Bible translated by Jákup Dahl and Kristian Osvald Viderø, comprising
     all 66 books of the Old and New Testaments. The New Testament appeared in 1937
     and the complete Bible in 1961. Collected from biblia.fo.</p>
 license:
-  fao: Teksturin er vardur av upphavsrætti. <a href="https://biblia.fo/upphavsraettindi">Nýtslutreytir
-    hjá Føroyska bíbliufelagnum</a>
-  eng: The text is protected by copyright. <a href="https://biblia.fo/upphavsraettindi">Faroese
-    Bible Society terms of use</a>
+  fao: <a href="https://biblia.fo/upphavsraettindi">Nýtslutreytir hjá Føroyska bíbliufelagnum</a>.
+    Teksturin er vardur av upphavsrætti.
+  eng: <a href="https://biblia.fo/upphavsraettindi">Faroese Bible Society terms of
+    use</a>. The text is protected by copyright.
 title:
-  fao: Bíblia (Føroyska bíbliufelagið)
+  fao: Bíblia (Føroyska Bíbliufelagið)
   eng: Bible (Faroese Bible Society)
 download_allowed: false
+availability_status: restricted
 within:
   - value: s
     label:
@@ -39,6 +40,7 @@ struct_attributes:
   - s_hendan_utgavan:
       preset: s_hendan_utgavan
       order: 7
+      sidebar_hide_if_equal_to: text_dagfesting
   - text_bibliubok:
       preset: text_bibliubok
       order: 1
@@ -57,8 +59,12 @@ struct_attributes:
   - text_leinki:
       preset: text_leinki
       order: 8
+  - text_kyn:
+      preset: text_kyn
+      order: 5.5
 pos_attributes:
   - leitord: leitord
+  - bendingar_id: bendingar_id
   - mark: mark
   - ordaflokkur: ordaflokkur
   - undirflokkur: undirflokkur
@@ -79,3 +85,5 @@ pos_attributes:
   - bundninavnords: bundninavnords
   - bundnikenniords: bundnikenniords
   - teknseting: teknseting
+  - _head: _head
+  - _tail: _tail
